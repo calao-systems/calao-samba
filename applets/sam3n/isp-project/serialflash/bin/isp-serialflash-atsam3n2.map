@@ -1,0 +1,1202 @@
+Archive member included because of file (symbol)
+
+../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                              obj/sram_main.o (AT25D_Read)
+../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                              obj/sram_main.o (AT25_FindDevice)
+../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+                              obj/sram_main.o (min)
+../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+                              obj/sram_main.o (UART_Configure)
+../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+                              obj/sram_main.o (PIO_Configure)
+../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+                              ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o) (PMC_EnablePeripheral)
+../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                              ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o) (SPID_IsBusy)
+../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                              ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o) (SPI_Enable)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                              ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o) (_impure_ptr)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                              obj/sram_main.o (memcpy)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                              obj/sram_main.o (memset)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                              ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o) (printf)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o) (_vfprintf_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__swsetup_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_dtoa_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_fflush_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o) (__sinit)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o) (_free_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__sfvwrite_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o) (_fwalk_reent)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_localeconv_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o) (__smakebuf_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (malloc)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (_malloc_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (memchr)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (memmove)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o) (__malloc_lock)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__hi0bits)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (_realloc_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__isinfd)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__isnand)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o) (_sbrk_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (__sclose)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o) (strcmp)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (strlen)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_write_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o) (_calloc_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_close_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (fclose)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_fstat_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_isatty_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_lseek_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_read_r)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o) (errno)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__aeabi_uldivmod)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o) (__divdi3)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o) (__udivdi3)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/sram_main.o
+ .text          0x00000000        0x0 obj/sram_isp_cstartup.o
+ .data          0x00000000        0x0 obj/sram_isp_cstartup.o
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .bss           0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .bss           0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .bss           0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .text.absv     0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .text.power    0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.__ungetchar
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_DumpFrame
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_IsRxReady
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_GetChar
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.fgetc    0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.getchar  0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_PutChar
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_GetHexa32
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_GetInteger
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_GetIntegerMinMax
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.UART_DumpMemory
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.fputc    0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.putchar  0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text.fputs    0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .rodata.str1.1
+                0x00000000        0x0 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_SetPinType
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_Set  0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_Clear
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_Get  0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_GetOutputDataStatus
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_SetDebounceFilter
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_EnableWriteProtect
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_DisableWriteProtect
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text.PIO_GetWriteProtectViolationInfo
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .text.PMC_EnableAllPeripherals
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .text.PMC_DisableAllPeripherals
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .text.PMC_IsPeriphEnabled
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_Disable
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_GetStatus
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_EnableCs
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_Read
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_Write
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_IsFinished
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_WriteBuffer
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text.SPI_ReadBuffer
+                0x00000000        0x0 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .rodata.str1.4
+                0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .rodata.str1.4
+                0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ COMMON         0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+ .rodata        0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+romcodesram      0x20000000         0x00001000         w !xr
+sram             0x20001000         0x00003000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/sram_main.o
+LOAD obj/sram_isp_cstartup.o
+LOAD ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a
+LOAD ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a
+START GROUP
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+
+.text           0x20001000     0x113c
+                0x20001000                . = ALIGN (0x4)
+                0x20001000                _stext = .
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x20001000       0x40 obj/sram_isp_cstartup.o
+                0x20001000                exception_table
+ *(.mailbox)
+ .mailbox       0x20001040       0x80 obj/sram_isp_cstartup.o
+                0x20001040                mailbox
+ *(.text .text.*)
+ .text.main     0x200010c0      0x354 obj/sram_main.o
+                0x200010c0                main
+ .text.ResetException
+                0x20001414       0x80 obj/sram_isp_cstartup.o
+                0x20001414                ResetException
+ .text.AT25D_Wait
+                0x20001494       0x20 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .text.AT25D_Read
+                0x200014b4       0x34 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x200014b4                AT25D_Read
+ .text.AT25D_ReadStatus
+                0x200014e8       0x34 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .text.AT25D_WaitReady
+                0x2000151c       0x18 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x2000151c                AT25D_WaitReady
+ .text.AT25D_WriteStatus
+                0x20001534       0x30 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .text.AT25D_EnableWrite
+                0x20001564       0x2c ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x20001564                AT25D_EnableWrite
+ .text.AT25D_Unprotect
+                0x20001590       0x54 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x20001590                AT25D_Unprotect
+ .text.AT25D_EraseBlock
+                0x200015e4       0x60 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x200015e4                AT25D_EraseBlock
+ .text.AT25D_EraseChip
+                0x20001644       0x54 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x20001644                AT25D_EraseChip
+ .text.AT25D_ReadJedecId
+                0x20001698       0x34 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x20001698                AT25D_ReadJedecId
+ .text.AT25D_Write
+                0x200016cc       0x90 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                0x200016cc                AT25D_Write
+ .text.AT25_FindDevice
+                0x2000175c       0x2c ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                0x2000175c                AT25_FindDevice
+ .text.AT25_IsBusy
+                0x20001788       0x10 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                0x20001788                AT25_IsBusy
+ .text.AT25_SendCommand
+                0x20001798       0x60 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                0x20001798                AT25_SendCommand
+ .text.AT25_Configure
+                0x200017f8       0x30 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                0x200017f8                AT25_Configure
+ .text.min      0x20001828        0x8 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+                0x20001828                min
+ .text.UART_Configure
+                0x20001830       0x54 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+                0x20001830                UART_Configure
+ .text.PIO_Configure
+                0x20001884      0x158 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+                0x20001884                PIO_Configure
+ .text.PMC_EnablePeripheral
+                0x200019dc       0x18 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+                0x200019dc                PMC_EnablePeripheral
+ .text.PMC_DisablePeripheral
+                0x200019f4       0x18 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+                0x200019f4                PMC_DisablePeripheral
+ .text.SPID_IsBusy
+                0x20001a0c        0xc ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                0x20001a0c                SPID_IsBusy
+ .text.SPID_Handler
+                0x20001a18       0x54 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                0x20001a18                SPID_Handler
+ .text.SPID_SendCommand
+                0x20001a6c       0x98 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                0x20001a6c                SPID_SendCommand
+ .text.SPID_ConfigureCS
+                0x20001b04       0x10 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                0x20001b04                SPID_ConfigureCS
+ .text.SPID_Configure
+                0x20001b14       0x48 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                0x20001b14                SPID_Configure
+ .text.SPI_Enable
+                0x20001b5c        0x8 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b5c                SPI_Enable
+ .text.SPI_EnableIt
+                0x20001b64        0x4 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b64                SPI_EnableIt
+ .text.SPI_DisableIt
+                0x20001b68        0x4 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b68                SPI_DisableIt
+ .text.SPI_ConfigureNPCS
+                0x20001b6c        0x8 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b6c                SPI_ConfigureNPCS
+ .text.SPI_PdcEnableTx
+                0x20001b74        0xc ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b74                SPI_PdcEnableTx
+ .text.SPI_PdcDisableTx
+                0x20001b80        0xc ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b80                SPI_PdcDisableTx
+ .text.SPI_PdcEnableRx
+                0x20001b8c        0x8 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b8c                SPI_PdcEnableRx
+ .text.SPI_PdcDisableRx
+                0x20001b94        0x8 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b94                SPI_PdcDisableRx
+ .text.SPI_PdcSetTx
+                0x20001b9c       0x14 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001b9c                SPI_PdcSetTx
+ .text.SPI_PdcSetRx
+                0x20001bb0       0x14 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001bb0                SPI_PdcSetRx
+ .text.SPI_Configure
+                0x20001bc4       0x20 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                0x20001bc4                SPI_Configure
+ .text          0x20001be4      0x12c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                0x20001be4                memcpy
+ .text          0x20001d10       0xb0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                0x20001d10                memset
+ *(.rodata .rodata.*)
+ .rodata        0x20001dc0       0x18 obj/sram_main.o
+ .rodata        0x20001dd8      0x270 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .rodata.str1.1
+                0x20002048       0xdb ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ *fill*         0x20002123        0x1 00
+ .rodata        0x20002124       0x18 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ *(.ramfunc)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.gcc_except_table)
+ *(.rodata .rodata*)
+ *(.gnu.linkonce.r.*)
+                0x2000213c                . = ALIGN (0x4)
+                0x2000213c                _etext = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.data           0x2000213c       0x34
+                0x2000213c                . = ALIGN (0x4)
+                0x2000213c                _sidata = .
+                0x2000213c                _sdata = .
+ *(.data)
+ .data          0x2000213c       0x34 obj/sram_main.o
+ *(.data.*)
+                0x20002170                . = ALIGN (0x4)
+                0x20002170                _edata = .
+
+.bss            0x20002170       0x50
+                0x20002170                _szero = .
+ *(.bss)
+ .bss           0x20002170       0x48 obj/sram_main.o
+ .bss           0x200021b8        0x4 obj/sram_isp_cstartup.o
+                0x200021b8                isInitialized
+ .bss           0x200021bc        0x1 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+                0x200021c0                . = ALIGN (0x4)
+ *fill*         0x200021bd        0x3 00
+                0x200021c0                _ezero = .
+                0x20003ffc                _sstack = 0x20003ffc
+                0x200021c0                end = .
+OUTPUT(bin/isp-serialflash-atsam3n2.elf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0x25b
+ .debug_abbrev  0x00000000      0x18a obj/sram_main.o
+ .debug_abbrev  0x0000018a       0xd1 obj/sram_isp_cstartup.o
+
+.debug_info     0x00000000      0xdeb
+ .debug_info    0x00000000      0xc68 obj/sram_main.o
+ .debug_info    0x00000c68      0x183 obj/sram_isp_cstartup.o
+
+.debug_line     0x00000000      0x2b8
+ .debug_line    0x00000000      0x1f1 obj/sram_main.o
+ .debug_line    0x000001f1       0xc7 obj/sram_isp_cstartup.o
+
+.debug_frame    0x00000000      0xc78
+ .debug_frame   0x00000000       0x3c obj/sram_main.o
+ .debug_frame   0x0000003c       0x2c obj/sram_isp_cstartup.o
+ .debug_frame   0x00000068       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000098       0x28 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .debug_frame   0x000000c0       0x5c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .debug_frame   0x0000011c       0x74 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x00000190       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .debug_frame   0x000001bc       0x64 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00000220       0x48 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .debug_frame   0x00000268      0x13c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .debug_frame   0x000003a4       0x50 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .debug_frame   0x000003f4       0x38 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000042c       0x58 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .debug_frame   0x00000484       0x74 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .debug_frame   0x000004f8       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00000528       0x40 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .debug_frame   0x00000568       0x38 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000005a0       0x28 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .debug_frame   0x000005c8       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .debug_frame   0x000005f4       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000624      0x228 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .debug_frame   0x0000084c       0x38 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00000884       0x28 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+ .debug_frame   0x000008ac       0x20 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+ .debug_frame   0x000008cc       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000008f8       0x78 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .debug_frame   0x00000970       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x000009a0       0x20 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .debug_frame   0x000009c0       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .debug_frame   0x000009ec       0x28 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .debug_frame   0x00000a14       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .debug_frame   0x00000a40       0x44 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .debug_frame   0x00000a84       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00000ab0       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00000adc       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .debug_frame   0x00000b08       0x2c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .debug_frame   0x00000b34       0x64 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .debug_frame   0x00000b98       0x20 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000bb8       0x50 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+ .debug_frame   0x00000c08       0x38 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_frame   0x00000c40       0x38 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_loc      0x00000000      0x298
+ .debug_loc     0x00000000      0x266 obj/sram_main.o
+ .debug_loc     0x00000266       0x32 obj/sram_isp_cstartup.o
+
+.debug_pubnames
+                0x00000000       0x72
+ .debug_pubnames
+                0x00000000       0x1b obj/sram_main.o
+ .debug_pubnames
+                0x0000001b       0x57 obj/sram_isp_cstartup.o
+
+.debug_aranges  0x00000000       0x40
+ .debug_aranges
+                0x00000000       0x20 obj/sram_main.o
+ .debug_aranges
+                0x00000020       0x20 obj/sram_isp_cstartup.o
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x18 obj/sram_main.o
+ .debug_ranges  0x00000018       0x18 obj/sram_isp_cstartup.o
+
+.debug_str      0x00000000      0x6d4
+ .debug_str     0x00000000      0x647 obj/sram_main.o
+                                0x69b (size before relaxing)
+ .debug_str     0x00000647       0x8d obj/sram_isp_cstartup.o
+                                0x181 (size before relaxing)
+
+.comment        0x00000000      0x1ae
+ .comment       0x00000000       0x2b obj/sram_main.o
+ .comment       0x0000002b       0x2b obj/sram_isp_cstartup.o
+ .comment       0x00000056       0x2b ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .comment       0x00000081       0x2b ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .comment       0x000000ac       0x2b ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .comment       0x000000d7       0x2b ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .comment       0x00000102       0x2b ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .comment       0x0000012d       0x2b ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .comment       0x00000158       0x2b ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+ .comment       0x00000183       0x2b ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 obj/sram_main.o
+ .ARM.attributes
+                0x00000031       0x31 obj/sram_isp_cstartup.o
+ .ARM.attributes
+                0x00000062       0x31 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+ .ARM.attributes
+                0x00000093       0x31 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+ .ARM.attributes
+                0x000000c4       0x31 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+ .ARM.attributes
+                0x000000f5       0x31 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+ .ARM.attributes
+                0x00000126       0x31 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+ .ARM.attributes
+                0x00000157       0x31 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ .ARM.attributes
+                0x00000188       0x31 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+ .ARM.attributes
+                0x000001b9       0x31 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+ .ARM.attributes
+                0x000001ea       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000211       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000238       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000025f       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .ARM.attributes
+                0x00000286       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x000002ad       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000002d4       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000002fb       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000322       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000349       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000370       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000397       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x000003be       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000003e5       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000040c       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000433       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000045a       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000481       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000004a8       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000004cf       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000004f6       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000051d       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+ .ARM.attributes
+                0x00000544       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+ .ARM.attributes
+                0x0000056b       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000592       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000005b9       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000005e0       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000607       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000062e       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x00000655       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x0000067c       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x000006a3       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x000006ca       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x000006f1       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00000718       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000073f       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000766       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000077d       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000794       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000007ab       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000007c2       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000007d9       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000007f0       0x17 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000807       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000082e       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000855       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000087c       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AT25D_EnableWrite                                 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+AT25D_EraseBlock                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25D_EraseChip                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25D_Read                                        ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25D_ReadJedecId                                 ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25D_Unprotect                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25D_WaitReady                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+AT25D_Write                                       ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+AT25_Configure                                    ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                                                  obj/sram_main.o
+AT25_FindDevice                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                                                  obj/sram_main.o
+AT25_IsBusy                                       ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+AT25_SendCommand                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+PIO_Clear                                         ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_Configure                                     ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+                                                  obj/sram_main.o
+PIO_DisableWriteProtect                           ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_EnableWriteProtect                            ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_Get                                           ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_GetOutputDataStatus                           ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_GetWriteProtectViolationInfo                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_Set                                           ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_SetDebounceFilter                             ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PIO_SetPinType                                    ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PMC_DisableAllPeripherals                         ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+PMC_DisablePeripheral                             ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+PMC_EnableAllPeripherals                          ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+PMC_EnablePeripheral                              ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pio.o)
+PMC_IsPeriphEnabled                               ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(pmc.o)
+ResetException                                    obj/sram_isp_cstartup.o
+SPID_Configure                                    ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  obj/sram_main.o
+SPID_ConfigureCS                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+SPID_Handler                                      ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+SPID_IsBusy                                       ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+SPID_SendCommand                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25_spi.o)
+SPI_Configure                                     ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_ConfigureNPCS                                 ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_Disable                                       ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_DisableIt                                     ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_Enable                                        ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_EnableCs                                      ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_EnableIt                                      ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_GetStatus                                     ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_IsFinished                                    ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_PdcDisableRx                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_PdcDisableTx                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_PdcEnableRx                                   ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_PdcEnableTx                                   ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_PdcSetRx                                      ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_PdcSetTx                                      ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+                                                  ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi_pdc.o)
+SPI_Read                                          ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_ReadBuffer                                    ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_Write                                         ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+SPI_WriteBuffer                                   ../../libraries/libchip_atsam3n/lib/libchip_atsam3n2_gcc_rel.a(spi.o)
+UART_Configure                                    ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+                                                  obj/sram_main.o
+UART_DumpFrame                                    ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_DumpMemory                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_GetChar                                      ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_GetHexa32                                    ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_GetInteger                                   ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_GetIntegerMinMax                             ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_IsRxReady                                    ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+UART_PutChar                                      ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+_Balloc                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+_Bfree                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+_PathLocale                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__adddf3                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__aeabi_cdcmpeq                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdcmple                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdrcmple                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__aeabi_d2iz                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_dadd                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_dcmpeq                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__aeabi_dcmpge                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_dcmpgt                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_dcmple                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmplt                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__aeabi_ddiv                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_dmul                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_drsub                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__aeabi_dsub                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_f2d                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__aeabi_i2d                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_idiv0                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+__aeabi_l2d                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__aeabi_ldiv0                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_dvmd_tls.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+__aeabi_ui2d                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_uidiv                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__aeabi_uidivmod                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+__aeabi_ul2d                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__aeabi_uldivmod                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__any_on                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__b2d                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__clz_tab                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_clz.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+__cmpdf2                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__copybits                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__d2b                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__divdf3                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+__divdi3                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_divdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+__eqdf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__extendsfdf2                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__fixdfsi                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+__floatdidf                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__floatsidf                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__floatundidf                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__floatunsidf                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__fp_lock_all                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__fp_unlock_all                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__gedf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__gnu_ldivmod_helper                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+__gnu_uldivmod_helper                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+__gtdf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__hi0bits                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__i2b                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__isinfd                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isinfd.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__isnand                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_isnand.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__lc_ctype                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__ledf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__lo0bits                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__locale_charset                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__lshift                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__ltdf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__malloc_av_                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_current_mallinfo                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_lock                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_max_sbrked_mem                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__malloc_max_total_mem                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__malloc_sbrk_base                                /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_top_pad                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_trim_threshold                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_unlock                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__mb_cur_max                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__mcmp                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__mdiff                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__mlocale_changed                                 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__mprec_bigtens                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__mprec_tens                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__mprec_tinytens                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__muldf3                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+__multadd                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__multiply                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__nedf2                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_cmpdf2.o)
+__nlocale_changed                                 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__pow5mult                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+__ratio                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__s2b                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__sclose                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sf_fake_stderr                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sf_fake_stdin                                   /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sf_fake_stdout                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sfmoreglue                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sfp                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sfp_lock_acquire                                /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+__sfp_lock_release                                /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+__sfvwrite_r                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__sinit                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+__sinit_lock_acquire                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sinit_lock_release                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__smakebuf_r                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+__sread                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sseek                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__subdf3                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+__swrite                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__swsetup_r                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+__udivdi3                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(bpabi.o)
+__udivsi3                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a(_udivsi3.o)
+__ulp                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+__ungetchar                                       ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+_calloc_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+_cleanup                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+_cleanup_r                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_close                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+_close_r                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_dtoa_r                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+_edata                                            obj/sram_isp_cstartup.o
+_ezero                                            obj/sram_isp_cstartup.o
+_fclose_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+_fflush_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+_free_r                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+_fstat                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+_fstat_r                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_fwalk                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+_fwalk_reent                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+_global_impure_ptr                                /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+_impure_ptr                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+_isatty                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+_isatty_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_localeconv_r                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+_lseek                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+_lseek_r                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_malloc_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+_malloc_trim_r                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+_mprec_log10                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+_printf_r                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+_read                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+_read_r                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_realloc_r                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+_reclaim_reent                                    /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+_sbrk                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+_sbrk_r                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+_sdata                                            obj/sram_isp_cstartup.o
+_setlocale_r                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+_sidata                                           obj/sram_isp_cstartup.o
+_sstack                                           obj/sram_isp_cstartup.o
+_szero                                            obj/sram_isp_cstartup.o
+_vfprintf_r                                       /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+_wrapup_reent                                     /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+_write                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+_write_r                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+absv                                              ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+cleanup_glue                                      /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+end                                               obj/sram_main.o
+errno                                             /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+exception_table                                   obj/sram_isp_cstartup.o
+fclose                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+fflush                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+fgetc                                             ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+fputc                                             ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+fputs                                             ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+free                                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+getchar                                           ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+isInitialized                                     obj/sram_isp_cstartup.o
+localeconv                                        /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+mailbox                                           obj/sram_isp_cstartup.o
+main                                              obj/sram_main.o
+                                                  obj/sram_isp_cstartup.o
+malloc                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+memchr                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+memcpy                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                                                  obj/sram_main.o
+memmove                                           /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+memset                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  obj/sram_main.o
+min                                               ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(at25d.o)
+                                                  obj/sram_main.o
+power                                             ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(math.o)
+printf                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                                                  ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+putchar                                           ../../libraries/libboard_atsam3n-ek/lib/libboard_atsam3n_ek_gcc_rel.a(uart_console.o)
+setlocale                                         /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+strcmp                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+strlen                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                                                  /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+vfprintf                                          /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)

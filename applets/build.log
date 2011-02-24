@@ -1,0 +1,494 @@
+
+Building the following deliveries: isp-applets
+
+Building dataflash-applet on at91sam7a3-ek/at91sam7a3/gnu/sram
+	make clean BOARD=at91sam7a3-ek CHIP=at91sam7a3 sram
+
+Building dataflash-applet on at91sam7se-ek/at91sam7se256/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sdram
+
+Building dataflash-applet on at91sam7se-ek/at91sam7se32/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sdram
+
+Building dataflash-applet on at91sam7se-ek/at91sam7se512/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sdram
+
+Building dataflash-applet on at91sam7x-ek/at91sam7x128/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x128 sram
+
+Building dataflash-applet on at91sam7x-ek/at91sam7x256/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x256 sram
+
+Building dataflash-applet on at91sam7x-ek/at91sam7x512/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x512 sram
+
+Building dataflash-applet on at91sam9260-ek/at91sam9260/gnu/sdram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sdram
+
+Building dataflash-applet on at91sam9261-ek/at91sam9261/gnu/sram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sram
+
+Building dataflash-applet on at91sam9263-ek/at91sam9263/gnu/sram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sram
+
+Building dataflash-applet on at91sam9g10-ek/at91sam9g10/gnu/sdram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sdram
+
+Building dataflash-applet on at91sam9g20-ek/at91sam9g20/gnu/sram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sram
+
+Building dataflash-applet on at91sam9g45-ek/at91sam9g45/gnu/sram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 sram
+
+Building dataflash-applet on at91sam9m10-ek/at91sam9m10/gnu/sram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 sram
+
+Building dataflash-applet on at91sam9rl-ek/at91sam9rl64/gnu/sram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sram
+
+Building dataflash-applet on at91sam9xe-ek/at91sam9xe128/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sdram
+
+Building dataflash-applet on at91sam9xe-ek/at91sam9xe256/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sdram
+
+Building dataflash-applet on at91sam9xe-ek/at91sam9xe512/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sdram
+
+Building dataflash-applet on at91cap9-dk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sdram
+
+Building dataflash-applet on at91cap9-stk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sdram
+
+Building eeprom-applet on at91sam7a3-ek/at91sam7a3/gnu/sram
+	make clean BOARD=at91sam7a3-ek CHIP=at91sam7a3 sram
+
+Building eeprom-applet on at91sam7s-ek/at91sam7s128/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s128 sram
+
+Building eeprom-applet on at91sam7s-ek/at91sam7s256/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s256 sram
+
+Building eeprom-applet on at91sam7s-ek/at91sam7s512/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s512 sram
+
+Building eeprom-applet on at91sam7s-ek/at91sam7s64/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s64 sram
+
+Building eeprom-applet on at91sam7se-ek/at91sam7se256/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sdram
+
+Building eeprom-applet on at91sam7se-ek/at91sam7se32/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sdram
+
+Building eeprom-applet on at91sam7se-ek/at91sam7se512/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sdram
+
+Building eeprom-applet on at91sam7x-ek/at91sam7x128/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x128 sram
+
+Building eeprom-applet on at91sam7x-ek/at91sam7x256/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x256 sram
+
+Building eeprom-applet on at91sam7x-ek/at91sam7x512/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x512 sram
+
+Building eeprom-applet on at91sam9260-ek/at91sam9260/gnu/sdram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sdram
+
+Building eeprom-applet on at91sam9261-ek/at91sam9261/gnu/sram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sram
+
+Building eeprom-applet on at91sam9263-ek/at91sam9263/gnu/sram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sram
+
+Building eeprom-applet on at91sam9g10-ek/at91sam9g10/gnu/sram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sram
+
+Building eeprom-applet on at91sam9g20-ek/at91sam9g20/gnu/sram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sram
+
+Building eeprom-applet on at91sam9g45-ek/at91sam9g45/gnu/sram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 sram
+
+Building eeprom-applet on at91sam9m10-ek/at91sam9m10/gnu/sram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 sram
+
+Building eeprom-applet on at91sam9rl-ek/at91sam9rl64/gnu/sram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sram
+
+Building eeprom-applet on at91sam9xe-ek/at91sam9xe128/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sram
+
+Building eeprom-applet on at91sam9xe-ek/at91sam9xe256/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sram
+
+Building eeprom-applet on at91sam9xe-ek/at91sam9xe512/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sram
+
+Building eeprom-applet on at91cap9-dk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sram
+
+Building eeprom-applet on at91cap9-dk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sdram
+
+Building eeprom-applet on at91cap9-stk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sdram
+
+Building eeprom-applet on at91cap9-stk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sram
+
+Building extram-applet on at91sam3u-ek/at91sam3u1/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u1 sram
+
+Building extram-applet on at91sam3u-ek/at91sam3u2/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u2 sram
+
+Building extram-applet on at91sam3u-ek/at91sam3u4/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u4 sram
+
+Building extram-applet on at91sam7se-ek/at91sam7se256/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sram
+
+Building extram-applet on at91sam7se-ek/at91sam7se32/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sram
+
+Building extram-applet on at91sam7se-ek/at91sam7se512/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sram
+
+Building extram-applet on at91sam9260-ek/at91sam9260/gnu/sram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sram
+
+Building extram-applet on at91sam9261-ek/at91sam9261/gnu/sram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sram
+
+Building extram-applet on at91sam9263-ek/at91sam9263/gnu/sram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sram
+
+Building extram-applet on at91sam9g10-ek/at91sam9g10/gnu/sram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sram
+
+Building extram-applet on at91sam9g20-ek/at91sam9g20/gnu/sram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sram
+
+Building extram-applet on at91sam9g45-ek/at91sam9g45/gnu/sram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 sram
+
+Building extram-applet on at91sam9m10-ek/at91sam9m10/gnu/sram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 sram
+
+Building extram-applet on at91sam9rl-ek/at91sam9rl64/gnu/sram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sram
+
+Building extram-applet on at91sam9xe-ek/at91sam9xe128/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sram
+
+Building extram-applet on at91sam9xe-ek/at91sam9xe256/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sram
+
+Building extram-applet on at91sam9xe-ek/at91sam9xe512/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sram
+
+Building extram-applet on at91cap9-dk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sram
+
+Building extram-applet on at91cap9-stk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sram
+
+Building flash-applet on at91sam3u-ek/at91sam3u1/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u1 sram
+
+Building flash-applet on at91sam3u-ek/at91sam3u2/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u2 sram
+
+Building flash-applet on at91sam3u-ek/at91sam3u4/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u4 sram
+
+Building flash-applet on at91sam7a3-ek/at91sam7a3/gnu/sram
+	make clean BOARD=at91sam7a3-ek CHIP=at91sam7a3 sram
+
+Building flash-applet on at91sam7l-ek/at91sam7l128/gnu/sram
+	make clean BOARD=at91sam7l-ek CHIP=at91sam7l128 sram
+
+Building flash-applet on at91sam7l-ek/at91sam7l64/gnu/sram
+	make clean BOARD=at91sam7l-ek CHIP=at91sam7l64 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s128/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s128 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s256/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s256 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s161/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s161 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s32/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s32 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s321/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s321 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s512/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s512 sram
+
+Building flash-applet on at91sam7s-ek/at91sam7s64/gnu/sram
+	make clean BOARD=at91sam7s-ek CHIP=at91sam7s64 sram
+
+Building flash-applet on at91sam7se-ek/at91sam7se256/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sram
+
+Building flash-applet on at91sam7se-ek/at91sam7se32/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sram
+
+Building flash-applet on at91sam7se-ek/at91sam7se512/gnu/sram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sram
+
+Building flash-applet on at91sam7x-ek/at91sam7x128/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x128 sram
+
+Building flash-applet on at91sam7x-ek/at91sam7x256/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x256 sram
+
+Building flash-applet on at91sam7x-ek/at91sam7x512/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x512 sram
+
+Building flash-applet on at91sam9xe-ek/at91sam9xe128/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sram
+
+Building flash-applet on at91sam9xe-ek/at91sam9xe256/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sram
+
+Building flash-applet on at91sam9xe-ek/at91sam9xe512/gnu/sram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sram
+
+Building nandflash-applet on at91sam3u-ek/at91sam3u1/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u1 sram
+
+Building nandflash-applet on at91sam3u-ek/at91sam3u2/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u2 sram
+
+Building nandflash-applet on at91sam3u-ek/at91sam3u4/gnu/sram
+	make clean BOARD=at91sam3u-ek CHIP=at91sam3u4 sram
+
+Building nandflash-applet on at91sam7se-ek/at91sam7se256/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sdram
+
+Building nandflash-applet on at91sam7se-ek/at91sam7se32/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sdram
+
+Building nandflash-applet on at91sam7se-ek/at91sam7se512/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sdram
+
+Building nandflash-applet on at91sam9260-ek/at91sam9260/gnu/sdram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sdram
+
+Building nandflash-applet on at91sam9261-ek/at91sam9261/gnu/sdram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sdram
+
+Building nandflash-applet on at91sam9263-ek/at91sam9263/gnu/sdram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sdram
+
+Building nandflash-applet on at91sam9g10-ek/at91sam9g10/gnu/sdram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sdram
+
+Building nandflash-applet on at91sam9g20-ek/at91sam9g20/gnu/sdram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sdram
+
+Building nandflash-applet on at91sam9g45-ek/at91sam9g45/gnu/ddram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 ddram
+
+Building nandflash-applet on at91sam9m10-ek/at91sam9m10/gnu/ddram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 ddram
+
+Building nandflash-applet on at91sam9rl-ek/at91sam9rl64/gnu/sdram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sdram
+
+Building nandflash-applet on at91sam9xe-ek/at91sam9xe128/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sdram
+
+Building nandflash-applet on at91sam9xe-ek/at91sam9xe256/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sdram
+
+Building nandflash-applet on at91sam9xe-ek/at91sam9xe512/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sdram
+
+Building nandflash-applet on at91cap9-dk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sram
+
+Building nandflash-applet on at91cap9-dk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sdram
+
+Building nandflash-applet on at91cap9-stk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sdram
+
+Building nandflash-applet on at91cap9-stk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-stk CHIP=at91cap9 sram
+
+Building norflash-applet on at91sam7se-ek/at91sam7se256/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sdram
+
+Building norflash-applet on at91sam7se-ek/at91sam7se32/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sdram
+
+Building norflash-applet on at91sam7se-ek/at91sam7se512/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sdram
+
+Building norflash-applet on at91sam9260-ek/at91sam9260/gnu/sdram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sdram
+
+Building norflash-applet on at91sam9261-ek/at91sam9261/gnu/sdram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sdram
+
+Building norflash-applet on at91sam9263-ek/at91sam9263/gnu/sdram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sdram
+
+Building norflash-applet on at91sam9g10-ek/at91sam9g10/gnu/sdram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sdram
+
+Building norflash-applet on at91sam9g20-ek/at91sam9g20/gnu/sdram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sdram
+
+Building norflash-applet on at91sam9g45-ek/at91sam9g45/gnu/ddram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 ddram
+
+Building norflash-applet on at91sam9m10-ek/at91sam9m10/gnu/ddram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 ddram
+
+Building norflash-applet on at91sam9rl-ek/at91sam9rl64/gnu/sdram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sdram
+
+Building norflash-applet on at91sam9xe-ek/at91sam9xe128/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sdram
+
+Building norflash-applet on at91sam9xe-ek/at91sam9xe256/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sdram
+
+Building norflash-applet on at91sam9xe-ek/at91sam9xe512/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sdram
+
+Building norflash-applet on at91cap9-dk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sdram
+
+Building sdmmc-applet on at91cap9-dk/at91cap9/gnu/sram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sram
+
+Building serialflash-applet on at91sam7a3-ek/at91sam7a3/gnu/sram
+	make clean BOARD=at91sam7a3-ek CHIP=at91sam7a3 sram
+
+Building serialflash-applet on at91sam7se-ek/at91sam7se256/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se256 sdram
+
+Building serialflash-applet on at91sam7se-ek/at91sam7se32/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se32 sdram
+
+Building serialflash-applet on at91sam7se-ek/at91sam7se512/gnu/sdram
+	make clean BOARD=at91sam7se-ek CHIP=at91sam7se512 sdram
+
+Building serialflash-applet on at91sam7x-ek/at91sam7x128/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x128 sram
+
+Building serialflash-applet on at91sam7x-ek/at91sam7x256/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x256 sram
+
+Building serialflash-applet on at91sam7x-ek/at91sam7x512/gnu/sram
+	make clean BOARD=at91sam7x-ek CHIP=at91sam7x512 sram
+
+Building serialflash-applet on at91sam9260-ek/at91sam9260/gnu/sdram
+	make clean BOARD=at91sam9260-ek CHIP=at91sam9260 sdram
+
+Building serialflash-applet on at91sam9261-ek/at91sam9261/gnu/sdram
+	make clean BOARD=at91sam9261-ek CHIP=at91sam9261 sdram
+
+Building serialflash-applet on at91sam9263-ek/at91sam9263/gnu/sdram
+	make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sdram
+
+Building serialflash-applet on at91sam9g10-ek/at91sam9g10/gnu/sdram
+	make clean BOARD=at91sam9g10-ek CHIP=at91sam9g10 sdram
+
+Building serialflash-applet on at91sam9g20-ek/at91sam9g20/gnu/sdram
+	make clean BOARD=at91sam9g20-ek CHIP=at91sam9g20 sdram
+
+Building serialflash-applet on at91sam9g45-ek/at91sam9g45/gnu/sram
+	make clean BOARD=at91sam9g45-ek CHIP=at91sam9g45 sram
+
+Building serialflash-applet on at91sam9m10-ek/at91sam9m10/gnu/sram
+	make clean BOARD=at91sam9m10-ek CHIP=at91sam9m10 sram
+
+Building serialflash-applet on at91sam9rl-ek/at91sam9rl64/gnu/sdram
+	make clean BOARD=at91sam9rl-ek CHIP=at91sam9rl64 sdram
+
+Building serialflash-applet on at91sam9xe-ek/at91sam9xe128/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe128 sdram
+
+Building serialflash-applet on at91sam9xe-ek/at91sam9xe256/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe256 sdram
+
+Building serialflash-applet on at91sam9xe-ek/at91sam9xe512/gnu/sdram
+	make clean BOARD=at91sam9xe-ek CHIP=at91sam9xe512 sdram
+
+Building serialflash-applet on at91cap9-dk/at91cap9/gnu/sdram
+	make clean BOARD=at91cap9-dk CHIP=at91cap9 sdram
+cd ../sam3s
+cd libraries/libboard_atsam3s-ek/build/gcc
+Building libboard_atsam3s_ek_gcc_rel.a on libraries/libboard_atsam3s-ek/build/gcc
+make
+
+cd ../../../libchip_atsam3s/build/gcc
+Building libchip_atsam3s4_gcc_rel.a on libraries/libchip_atsam3s/build/gcc
+make CHIP=atsam3s4
+
+Building libchip_atsam3s2_gcc_rel.a on libraries/libchip_atsam3s/build/gcc
+make CHIP=atsam3s2
+
+Building libchip_atsam3s1_gcc_rel.a on libraries/libchip_atsam3s/build/gcc
+make CHIP=atsam3s1
+
+cd ../../../../isp-project/flash
+Building isp-flash-atsam3s4 applet on sam3s/isp-project/flash
+make CHIP=atsam3s4
+
+Building isp-flash-atsam3s2 applet on sam3s/isp-project/flash
+make CHIP=atsam3s2
+
+Building isp-flash-atsam3s1 applet on sam3s/isp-project/flash
+make CHIP=atsam3s1
+
+cd ../nandflash
+Building isp-nandflash-atsam3s4 applet on sam3s/isp-project/nandflash
+make CHIP=atsam3s4
+
+cd ../sam3n
+cd libraries/libboard_atsam3n-ek/build/gcc
+Building libboard_atsam3n_ek_gcc_rel.a on libraries/libboard_atsam3n-ek/build/gcc
+make
+
+cd ../../../libchip_atsam3n/build/gcc
+Building libchip_atsam3n4_gcc_rel.a on libraries/libchip_atsam3n/build/gcc
+make CHIP=atsam3n4
+
+Building libchip_atsam3n2_gcc_rel.a on libraries/libchip_atsam3n/build/gcc
+make CHIP=atsam3n2
+
+Building libchip_atsam3n1_gcc_rel.a on libraries/libchip_atsam3n/build/gcc
+make CHIP=atsam3n1
+
+cd ../../../../isp-project/flash
+Building isp-flash-atsam3n4 applet on sam3n/isp-project/flash
+make CHIP=atsam3n4
+
+Building isp-flash-atsam3n2 applet on sam3n/isp-project/flash
+make CHIP=atsam3n2
+
+Building isp-flash-atsam3n1 applet on sam3n/isp-project/flash
+make CHIP=atsam3n1
+
+Building isp-serialflash-atsam3n4 applet on sam3n/isp-project/serialflash
+make CHIP=atsam3n4
+
+Building isp-serialflash-atsam3n2 applet on sam3n/isp-project/serialflash
+make CHIP=atsam3n2
+
+Building isp-serialflash-atsam3n1 applet on sam3n/isp-project/serialflash
+make CHIP=atsam3n1
+

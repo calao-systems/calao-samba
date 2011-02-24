@@ -1,0 +1,613 @@
+Archive member included because of file (symbol)
+
+../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+                              obj/sram_main.o (BOARD_ConfigureNandFlash)
+../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+                              obj/sram_EccNandFlash.o (Hamming_Compute256x)
+../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                              obj/sram_RawNandFlash.o (PIO_Set)
+../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+                              ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o) (PMC_EnablePeripheral)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                              obj/sram_EccNandFlash.o (memcpy)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                              obj/sram_main.o (memset)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/sram_main.o
+ .data          0x00000000        0x0 obj/sram_main.o
+ .text          0x00000000        0x0 obj/sram_isp_cstartup.o
+ .data          0x00000000        0x0 obj/sram_isp_cstartup.o
+ .text          0x00000000        0x0 obj/sram_RawNandFlash.o
+ .data          0x00000000        0x0 obj/sram_RawNandFlash.o
+ .bss           0x00000000        0x0 obj/sram_RawNandFlash.o
+ .text.CopyPage
+                0x00000000        0x0 obj/sram_RawNandFlash.o
+ .text.RawNandFlash_CopyPage
+                0x00000000        0x0 obj/sram_RawNandFlash.o
+ .text.RawNandFlash_CopyBlock
+                0x00000000        0x0 obj/sram_RawNandFlash.o
+ .text          0x00000000        0x0 obj/sram_EccNandFlash.o
+ .data          0x00000000        0x0 obj/sram_EccNandFlash.o
+ .bss           0x00000000        0x0 obj/sram_EccNandFlash.o
+ .text          0x00000000        0x0 obj/sram_SkipBlockNandFlash.o
+ .data          0x00000000        0x0 obj/sram_SkipBlockNandFlash.o
+ .bss           0x00000000        0x0 obj/sram_SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_WriteBlock
+                0x00000000        0x0 obj/sram_SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_ReadBlock
+                0x00000000        0x0 obj/sram_SkipBlockNandFlash.o
+ .text          0x00000000        0x0 obj/sram_NandFlashModel.o
+ .data          0x00000000        0x0 obj/sram_NandFlashModel.o
+ .bss           0x00000000        0x0 obj/sram_NandFlashModel.o
+ .text.NandFlashModel_GetDeviceId
+                0x00000000        0x0 obj/sram_NandFlashModel.o
+ .text.NandFlashModel_GetDeviceSizeInMBytes
+                0x00000000        0x0 obj/sram_NandFlashModel.o
+ .text.NandFlashModel_SupportsCopyBack
+                0x00000000        0x0 obj/sram_NandFlashModel.o
+ .text          0x00000000        0x0 obj/sram_NandFlashModelList.o
+ .data          0x00000000        0x0 obj/sram_NandFlashModelList.o
+ .bss           0x00000000        0x0 obj/sram_NandFlashModelList.o
+ .text          0x00000000        0x0 obj/sram_NandSpareScheme.o
+ .data          0x00000000        0x0 obj/sram_NandSpareScheme.o
+ .bss           0x00000000        0x0 obj/sram_NandSpareScheme.o
+ .text.NandSpareScheme_ReadExtra
+                0x00000000        0x0 obj/sram_NandSpareScheme.o
+ .text.NandSpareScheme_WriteExtra
+                0x00000000        0x0 obj/sram_NandSpareScheme.o
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .bss           0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .text.BOARD_ConfigureNorFlash
+                0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .text          0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .data          0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .bss           0x00000000        0x0 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .text.PIO_GetOutputDataStatus
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .text.PIO_SetDebounceFilter
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .text          0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .data          0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .bss           0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .text.PMC_DisablePeripheral
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .text.PMC_EnableAllPeripherals
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .text.PMC_DisableAllPeripherals
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .text.PMC_IsPeriphEnabled
+                0x00000000        0x0 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+romcodesram      0x20000000         0x00001000         w !xr
+sram             0x20001000         0x0000b000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/sram_main.o
+LOAD obj/sram_isp_cstartup.o
+LOAD obj/sram_RawNandFlash.o
+LOAD obj/sram_EccNandFlash.o
+LOAD obj/sram_SkipBlockNandFlash.o
+LOAD obj/sram_NandFlashModel.o
+LOAD obj/sram_NandFlashModelList.o
+LOAD obj/sram_NandSpareScheme.o
+LOAD ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a
+LOAD ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a
+START GROUP
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/thumb2/libgcc.a
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+
+.text           0x20001000     0x1bb0
+                0x20001000                . = ALIGN (0x4)
+                0x20001000                _stext = .
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x20001000       0x40 obj/sram_isp_cstartup.o
+                0x20001000                exception_table
+ *(.mailbox)
+ .mailbox       0x20001040       0x80 obj/sram_isp_cstartup.o
+                0x20001040                mailbox
+ *(.text .text.*)
+ .text.main     0x200010c0      0x4c0 obj/sram_main.o
+                0x200010c0                main
+ .text.ResetException
+                0x20001580       0x80 obj/sram_isp_cstartup.o
+                0x20001580                ResetException
+ .text.IsOperationComplete
+                0x20001600       0x18 obj/sram_RawNandFlash.o
+ .text.RawNandFlash_ReadId
+                0x20001618       0x44 obj/sram_RawNandFlash.o
+                0x20001618                RawNandFlash_ReadId
+ .text.WriteColumnAddress
+                0x2000165c       0x44 obj/sram_RawNandFlash.o
+ .text.ReadData
+                0x200016a0       0x3c obj/sram_RawNandFlash.o
+ .text.WriteData
+                0x200016dc       0x3c obj/sram_RawNandFlash.o
+ .text.WriteRowAddress
+                0x20001718       0x34 obj/sram_RawNandFlash.o
+ .text.WaitReady
+                0x2000174c       0x2c obj/sram_RawNandFlash.o
+ .text.RawNandFlash_EraseBlock
+                0x20001778       0x7c obj/sram_RawNandFlash.o
+                0x20001778                RawNandFlash_EraseBlock
+ .text.RawNandFlash_Reset
+                0x200017f4       0x30 obj/sram_RawNandFlash.o
+                0x200017f4                RawNandFlash_Reset
+ .text.RawNandFlash_WritePage
+                0x20001824      0x124 obj/sram_RawNandFlash.o
+                0x20001824                RawNandFlash_WritePage
+ .text.RawNandFlash_ReadPage
+                0x20001948       0xe0 obj/sram_RawNandFlash.o
+                0x20001948                RawNandFlash_ReadPage
+ .text.RawNandFlash_Initialize
+                0x20001a28       0x6c obj/sram_RawNandFlash.o
+                0x20001a28                RawNandFlash_Initialize
+ .text.EccNandFlash_WritePage
+                0x20001a94       0x84 obj/sram_EccNandFlash.o
+                0x20001a94                EccNandFlash_WritePage
+ .text.EccNandFlash_ReadPage
+                0x20001b18       0xb4 obj/sram_EccNandFlash.o
+                0x20001b18                EccNandFlash_ReadPage
+ .text.EccNandFlash_Initialize
+                0x20001bcc       0x38 obj/sram_EccNandFlash.o
+                0x20001bcc                EccNandFlash_Initialize
+ .text.SkipBlockNandFlash_CheckBlock
+                0x20001c04       0x7c obj/sram_SkipBlockNandFlash.o
+                0x20001c04                SkipBlockNandFlash_CheckBlock
+ .text.SkipBlockNandFlash_WritePage
+                0x20001c80       0x30 obj/sram_SkipBlockNandFlash.o
+                0x20001c80                SkipBlockNandFlash_WritePage
+ .text.SkipBlockNandFlash_WriteBlockUnaligned
+                0x20001cb0       0x58 obj/sram_SkipBlockNandFlash.o
+                0x20001cb0                SkipBlockNandFlash_WriteBlockUnaligned
+ .text.SkipBlockNandFlash_ReadPage
+                0x20001d08       0x30 obj/sram_SkipBlockNandFlash.o
+                0x20001d08                SkipBlockNandFlash_ReadPage
+ .text.SkipBlockNandFlash_ReadBlockUnaligned
+                0x20001d38       0x58 obj/sram_SkipBlockNandFlash.o
+                0x20001d38                SkipBlockNandFlash_ReadBlockUnaligned
+ .text.SkipBlockNandFlash_EraseBlock
+                0x20001d90       0x70 obj/sram_SkipBlockNandFlash.o
+                0x20001d90                SkipBlockNandFlash_EraseBlock
+ .text.SkipBlockNandFlash_Initialize
+                0x20001e00       0x60 obj/sram_SkipBlockNandFlash.o
+                0x20001e00                SkipBlockNandFlash_Initialize
+ .text.NandFlashModel_GetScheme
+                0x20001e60        0x4 obj/sram_NandFlashModel.o
+                0x20001e60                NandFlashModel_GetScheme
+ .text.NandFlashModel_GetDeviceSizeInBlocks
+                0x20001e64       0x14 obj/sram_NandFlashModel.o
+                0x20001e64                NandFlashModel_GetDeviceSizeInBlocks
+ .text.NandFlashModel_GetDeviceSizeInBytes
+                0x20001e78        0x8 obj/sram_NandFlashModel.o
+                0x20001e78                NandFlashModel_GetDeviceSizeInBytes
+ .text.NandFlashModel_GetBlockSizeInPages
+                0x20001e80       0x10 obj/sram_NandFlashModel.o
+                0x20001e80                NandFlashModel_GetBlockSizeInPages
+ .text.NandFlashModel_GetDeviceSizeInPages
+                0x20001e90       0x1c obj/sram_NandFlashModel.o
+                0x20001e90                NandFlashModel_GetDeviceSizeInPages
+ .text.NandFlashModel_GetBlockSizeInBytes
+                0x20001eac        0x8 obj/sram_NandFlashModel.o
+                0x20001eac                NandFlashModel_GetBlockSizeInBytes
+ .text.NandFlashModel_TranslateAccess
+                0x20001eb4       0x68 obj/sram_NandFlashModel.o
+                0x20001eb4                NandFlashModel_TranslateAccess
+ .text.NandFlashModel_GetPageDataSize
+                0x20001f1c        0x4 obj/sram_NandFlashModel.o
+                0x20001f1c                NandFlashModel_GetPageDataSize
+ .text.NandFlashModel_GetPageSpareSize
+                0x20001f20        0x8 obj/sram_NandFlashModel.o
+                0x20001f20                NandFlashModel_GetPageSpareSize
+ .text.NandFlashModel_GetDataBusWidth
+                0x20001f28       0x10 obj/sram_NandFlashModel.o
+                0x20001f28                NandFlashModel_GetDataBusWidth
+ .text.NandFlashModel_HasSmallBlocks
+                0x20001f38       0x10 obj/sram_NandFlashModel.o
+                0x20001f38                NandFlashModel_HasSmallBlocks
+ .text.NandFlashModel_Find
+                0x20001f48       0xb0 obj/sram_NandFlashModel.o
+                0x20001f48                NandFlashModel_Find
+ .text.NandSpareScheme_ReadBadBlockMarker
+                0x20001ff8        0x8 obj/sram_NandSpareScheme.o
+                0x20001ff8                NandSpareScheme_ReadBadBlockMarker
+ .text.NandSpareScheme_WriteBadBlockMarker
+                0x20002000        0x8 obj/sram_NandSpareScheme.o
+                0x20002000                NandSpareScheme_WriteBadBlockMarker
+ .text.NandSpareScheme_ReadEcc
+                0x20002008       0x20 obj/sram_NandSpareScheme.o
+                0x20002008                NandSpareScheme_ReadEcc
+ .text.NandSpareScheme_WriteEcc
+                0x20002028       0x24 obj/sram_NandSpareScheme.o
+                0x20002028                NandSpareScheme_WriteEcc
+ .text.BOARD_ConfigureNandFlash
+                0x2000204c       0x3c ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+                0x2000204c                BOARD_ConfigureNandFlash
+ .text.CountBitsInByte
+                0x20002088       0x18 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .text.CountBitsInCode256
+                0x200020a0       0x28 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .text.Compute256
+                0x200020c8      0x10c ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .text.Hamming_Compute256x
+                0x200021d4       0x28 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+                0x200021d4                Hamming_Compute256x
+ .text.Hamming_Verify256x
+                0x200021fc       0xec ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+                0x200021fc                Hamming_Verify256x
+ .text.PIO_Set  0x200022e8        0x8 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                0x200022e8                PIO_Set
+ .text.PIO_Clear
+                0x200022f0        0x8 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                0x200022f0                PIO_Clear
+ .text.PIO_Get  0x200022f8       0x1c ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                0x200022f8                PIO_Get
+ .text.PIO_Configure
+                0x20002314      0x158 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                0x20002314                PIO_Configure
+ .text.PMC_EnablePeripheral
+                0x2000246c       0x40 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+                0x2000246c                PMC_EnablePeripheral
+ .text          0x200024ac      0x12c /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                0x200024ac                memcpy
+ .text          0x200025d8       0xb0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                0x200025d8                memset
+ *(.rodata .rodata.*)
+ .rodata        0x20002688       0x6c obj/sram_main.o
+ .rodata        0x200026f4      0x2b8 obj/sram_NandFlashModelList.o
+                0x200026f4                nandFlashModelList
+ .rodata        0x200029ac      0x204 obj/sram_NandSpareScheme.o
+                0x20002a2d                nandSpareScheme512
+                0x20002b2f                nandSpareScheme4096
+                0x200029ac                nandSpareScheme256
+                0x20002aae                nandSpareScheme2048
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.gcc_except_table)
+ *(.rodata .rodata*)
+ *(.gnu.linkonce.r.*)
+                0x20002bb0                . = ALIGN (0x4)
+                0x20002bb0                _etext = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.data           0x20002bb0        0x0
+                0x20002bb0                . = ALIGN (0x4)
+                0x20002bb0                _sidata = .
+                0x20002bb0                _sdata = .
+ *(.data)
+ *(.data.*)
+                0x20002bb0                . = ALIGN (0x4)
+                0x20002bb0                _edata = .
+
+.bss            0x20002bb0       0x4c
+                0x20002bb0                _szero = .
+ *(.bss)
+ .bss           0x20002bb0       0x48 obj/sram_main.o
+ .bss           0x20002bf8        0x4 obj/sram_isp_cstartup.o
+                0x20002bf8                isInitialized
+                0x20002bfc                . = ALIGN (0x4)
+                0x20002bfc                _ezero = .
+                0x2000bffc                _sstack = 0x2000bffc
+                0x20002bfc                end = .
+OUTPUT(bin/isp-nandflash-atsam3s4.elf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0xb67
+ .debug_abbrev  0x00000000      0x19e obj/sram_main.o
+ .debug_abbrev  0x0000019e       0xd1 obj/sram_isp_cstartup.o
+ .debug_abbrev  0x0000026f      0x2d2 obj/sram_RawNandFlash.o
+ .debug_abbrev  0x00000541      0x167 obj/sram_EccNandFlash.o
+ .debug_abbrev  0x000006a8      0x1b3 obj/sram_SkipBlockNandFlash.o
+ .debug_abbrev  0x0000085b      0x170 obj/sram_NandFlashModel.o
+ .debug_abbrev  0x000009cb       0x93 obj/sram_NandFlashModelList.o
+ .debug_abbrev  0x00000a5e      0x109 obj/sram_NandSpareScheme.o
+
+.debug_info     0x00000000     0x3d17
+ .debug_info    0x00000000      0xcf0 obj/sram_main.o
+ .debug_info    0x00000cf0      0x183 obj/sram_isp_cstartup.o
+ .debug_info    0x00000e73      0xeca obj/sram_RawNandFlash.o
+ .debug_info    0x00001d3d      0x9eb obj/sram_EccNandFlash.o
+ .debug_info    0x00002728      0xcb0 obj/sram_SkipBlockNandFlash.o
+ .debug_info    0x000033d8      0x4c0 obj/sram_NandFlashModel.o
+ .debug_info    0x00003898      0x168 obj/sram_NandFlashModelList.o
+ .debug_info    0x00003a00      0x317 obj/sram_NandSpareScheme.o
+
+.debug_line     0x00000000      0xed1
+ .debug_line    0x00000000      0x298 obj/sram_main.o
+ .debug_line    0x00000298       0xc7 obj/sram_isp_cstartup.o
+ .debug_line    0x0000035f      0x37b obj/sram_RawNandFlash.o
+ .debug_line    0x000006da      0x1e4 obj/sram_EccNandFlash.o
+ .debug_line    0x000008be      0x2d6 obj/sram_SkipBlockNandFlash.o
+ .debug_line    0x00000b94      0x1da obj/sram_NandFlashModel.o
+ .debug_line    0x00000d6e       0x81 obj/sram_NandFlashModelList.o
+ .debug_line    0x00000def       0xe2 obj/sram_NandSpareScheme.o
+
+.debug_frame    0x00000000      0x660
+ .debug_frame   0x00000000       0x38 obj/sram_main.o
+ .debug_frame   0x00000038       0x2c obj/sram_isp_cstartup.o
+ .debug_frame   0x00000064      0x1ec obj/sram_RawNandFlash.o
+ .debug_frame   0x00000250       0x8c obj/sram_EccNandFlash.o
+ .debug_frame   0x000002dc      0x170 obj/sram_SkipBlockNandFlash.o
+ .debug_frame   0x0000044c      0x130 obj/sram_NandFlashModel.o
+ .debug_frame   0x0000057c       0x8c obj/sram_NandSpareScheme.o
+ .debug_frame   0x00000608       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000638       0x28 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+
+.debug_loc      0x00000000     0x1c82
+ .debug_loc     0x00000000      0x66d obj/sram_main.o
+ .debug_loc     0x0000066d       0x32 obj/sram_isp_cstartup.o
+ .debug_loc     0x0000069f      0x863 obj/sram_RawNandFlash.o
+ .debug_loc     0x00000f02      0x252 obj/sram_EccNandFlash.o
+ .debug_loc     0x00001154      0x64c obj/sram_SkipBlockNandFlash.o
+ .debug_loc     0x000017a0      0x31b obj/sram_NandFlashModel.o
+ .debug_loc     0x00001abb      0x1c7 obj/sram_NandSpareScheme.o
+
+.debug_pubnames
+                0x00000000      0x690
+ .debug_pubnames
+                0x00000000       0x1b obj/sram_main.o
+ .debug_pubnames
+                0x0000001b       0x57 obj/sram_isp_cstartup.o
+ .debug_pubnames
+                0x00000072       0xe3 obj/sram_RawNandFlash.o
+ .debug_pubnames
+                0x00000155       0x63 obj/sram_EccNandFlash.o
+ .debug_pubnames
+                0x000001b8      0x151 obj/sram_SkipBlockNandFlash.o
+ .debug_pubnames
+                0x00000309      0x229 obj/sram_NandFlashModel.o
+ .debug_pubnames
+                0x00000532       0x29 obj/sram_NandFlashModelList.o
+ .debug_pubnames
+                0x0000055b      0x135 obj/sram_NandSpareScheme.o
+
+.debug_aranges  0x00000000      0x238
+ .debug_aranges
+                0x00000000       0x20 obj/sram_main.o
+ .debug_aranges
+                0x00000020       0x20 obj/sram_isp_cstartup.o
+ .debug_aranges
+                0x00000040       0x90 obj/sram_RawNandFlash.o
+ .debug_aranges
+                0x000000d0       0x30 obj/sram_EccNandFlash.o
+ .debug_aranges
+                0x00000100       0x60 obj/sram_SkipBlockNandFlash.o
+ .debug_aranges
+                0x00000160       0x90 obj/sram_NandFlashModel.o
+ .debug_aranges
+                0x000001f0       0x48 obj/sram_NandSpareScheme.o
+
+.debug_ranges   0x00000000      0x270
+ .debug_ranges  0x00000000       0x18 obj/sram_main.o
+ .debug_ranges  0x00000018       0x18 obj/sram_isp_cstartup.o
+ .debug_ranges  0x00000030       0xf8 obj/sram_RawNandFlash.o
+ .debug_ranges  0x00000128       0x28 obj/sram_EccNandFlash.o
+ .debug_ranges  0x00000150       0x58 obj/sram_SkipBlockNandFlash.o
+ .debug_ranges  0x000001a8       0x88 obj/sram_NandFlashModel.o
+ .debug_ranges  0x00000230       0x40 obj/sram_NandSpareScheme.o
+
+.debug_str      0x00000000     0x102c
+ .debug_str     0x00000000      0x7ba obj/sram_main.o
+                                0x7f3 (size before relaxing)
+ .debug_str     0x000007ba       0x8d obj/sram_isp_cstartup.o
+                                0x17f (size before relaxing)
+ .debug_str     0x00000847      0x220 obj/sram_RawNandFlash.o
+                                0x708 (size before relaxing)
+ .debug_str     0x00000a67       0x90 obj/sram_EccNandFlash.o
+                                0x5d8 (size before relaxing)
+ .debug_str     0x00000af7      0x17e obj/sram_SkipBlockNandFlash.o
+                                0x6f5 (size before relaxing)
+ .debug_str     0x00000c75      0x242 obj/sram_NandFlashModel.o
+                                0x3da (size before relaxing)
+ .debug_str     0x00000eb7       0x72 obj/sram_NandFlashModelList.o
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000f29      0x103 obj/sram_NandSpareScheme.o
+                                0x234 (size before relaxing)
+
+.comment        0x00000000      0x204
+ .comment       0x00000000       0x2b obj/sram_main.o
+ .comment       0x0000002b       0x2b obj/sram_isp_cstartup.o
+ .comment       0x00000056       0x2b obj/sram_RawNandFlash.o
+ .comment       0x00000081       0x2b obj/sram_EccNandFlash.o
+ .comment       0x000000ac       0x2b obj/sram_SkipBlockNandFlash.o
+ .comment       0x000000d7       0x2b obj/sram_NandFlashModel.o
+ .comment       0x00000102       0x2b obj/sram_NandFlashModelList.o
+ .comment       0x0000012d       0x2b obj/sram_NandSpareScheme.o
+ .comment       0x00000158       0x2b ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .comment       0x00000183       0x2b ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .comment       0x000001ae       0x2b ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .comment       0x000001d9       0x2b ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 obj/sram_main.o
+ .ARM.attributes
+                0x00000031       0x31 obj/sram_isp_cstartup.o
+ .ARM.attributes
+                0x00000062       0x31 obj/sram_RawNandFlash.o
+ .ARM.attributes
+                0x00000093       0x31 obj/sram_EccNandFlash.o
+ .ARM.attributes
+                0x000000c4       0x31 obj/sram_SkipBlockNandFlash.o
+ .ARM.attributes
+                0x000000f5       0x31 obj/sram_NandFlashModel.o
+ .ARM.attributes
+                0x00000126       0x31 obj/sram_NandFlashModelList.o
+ .ARM.attributes
+                0x00000157       0x31 obj/sram_NandSpareScheme.o
+ .ARM.attributes
+                0x00000188       0x31 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+ .ARM.attributes
+                0x000001b9       0x31 ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+ .ARM.attributes
+                0x000001ea       0x31 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+ .ARM.attributes
+                0x0000021b       0x31 ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+ .ARM.attributes
+                0x0000024c       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000273       0x27 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+
+Cross Reference Table
+
+Symbol                                            File
+BOARD_ConfigureNandFlash                          ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+                                                  obj/sram_main.o
+BOARD_ConfigureNorFlash                           ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+EccNandFlash_Initialize                           obj/sram_EccNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+EccNandFlash_ReadPage                             obj/sram_EccNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+EccNandFlash_WritePage                            obj/sram_EccNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+Hamming_Compute256x                               ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+                                                  obj/sram_EccNandFlash.o
+Hamming_Verify256x                                ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(hamming.o)
+                                                  obj/sram_EccNandFlash.o
+NandFlashModel_Find                               obj/sram_NandFlashModel.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_GetBlockSizeInBytes                obj/sram_NandFlashModel.o
+                                                  obj/sram_main.o
+NandFlashModel_GetBlockSizeInPages                obj/sram_NandFlashModel.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_RawNandFlash.o
+                                                  obj/sram_main.o
+NandFlashModel_GetDataBusWidth                    obj/sram_NandFlashModel.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_GetDeviceId                        obj/sram_NandFlashModel.o
+NandFlashModel_GetDeviceSizeInBlocks              obj/sram_NandFlashModel.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+NandFlashModel_GetDeviceSizeInBytes               obj/sram_NandFlashModel.o
+                                                  obj/sram_main.o
+NandFlashModel_GetDeviceSizeInMBytes              obj/sram_NandFlashModel.o
+NandFlashModel_GetDeviceSizeInPages               obj/sram_NandFlashModel.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_GetPageDataSize                    obj/sram_NandFlashModel.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+                                                  obj/sram_RawNandFlash.o
+                                                  obj/sram_main.o
+NandFlashModel_GetPageSpareSize                   obj/sram_NandFlashModel.o
+                                                  obj/sram_EccNandFlash.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_GetScheme                          obj/sram_NandFlashModel.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+                                                  obj/sram_main.o
+NandFlashModel_HasSmallBlocks                     obj/sram_NandFlashModel.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_SupportsCopyBack                   obj/sram_NandFlashModel.o
+                                                  obj/sram_RawNandFlash.o
+NandFlashModel_TranslateAccess                    obj/sram_NandFlashModel.o
+                                                  obj/sram_main.o
+NandSpareScheme_ReadBadBlockMarker                obj/sram_NandSpareScheme.o
+                                                  obj/sram_SkipBlockNandFlash.o
+NandSpareScheme_ReadEcc                           obj/sram_NandSpareScheme.o
+                                                  obj/sram_EccNandFlash.o
+NandSpareScheme_ReadExtra                         obj/sram_NandSpareScheme.o
+NandSpareScheme_WriteBadBlockMarker               obj/sram_NandSpareScheme.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+NandSpareScheme_WriteEcc                          obj/sram_NandSpareScheme.o
+                                                  obj/sram_EccNandFlash.o
+NandSpareScheme_WriteExtra                        obj/sram_NandSpareScheme.o
+PIO_Clear                                         ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                                                  obj/sram_RawNandFlash.o
+PIO_Configure                                     ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                                                  obj/sram_main.o
+PIO_Get                                           ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                                                  obj/sram_RawNandFlash.o
+PIO_GetOutputDataStatus                           ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+PIO_Set                                           ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                                                  obj/sram_RawNandFlash.o
+PIO_SetDebounceFilter                             ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+PMC_DisableAllPeripherals                         ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+PMC_DisablePeripheral                             ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+PMC_EnableAllPeripherals                          ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+PMC_EnablePeripheral                              ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+                                                  ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pio.o)
+                                                  ../../libraries/libboard_atsam3s-ek/lib/libboard_atsam3s_ek_gcc_rel.a(board_memories.o)
+PMC_IsPeriphEnabled                               ../../libraries/libchip_atsam3s/lib/libchip_atsam3s4_gcc_rel.a(pmc.o)
+RawNandFlash_CopyBlock                            obj/sram_RawNandFlash.o
+RawNandFlash_CopyPage                             obj/sram_RawNandFlash.o
+RawNandFlash_EraseBlock                           obj/sram_RawNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+RawNandFlash_Initialize                           obj/sram_RawNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+RawNandFlash_ReadId                               obj/sram_RawNandFlash.o
+RawNandFlash_ReadPage                             obj/sram_RawNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+RawNandFlash_Reset                                obj/sram_RawNandFlash.o
+RawNandFlash_WritePage                            obj/sram_RawNandFlash.o
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+                                                  obj/sram_main.o
+ResetException                                    obj/sram_isp_cstartup.o
+SkipBlockNandFlash_CheckBlock                     obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_EraseBlock                     obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_Initialize                     obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_ReadBlock                      obj/sram_SkipBlockNandFlash.o
+SkipBlockNandFlash_ReadBlockUnaligned             obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_ReadPage                       obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_WriteBlock                     obj/sram_SkipBlockNandFlash.o
+SkipBlockNandFlash_WriteBlockUnaligned            obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+SkipBlockNandFlash_WritePage                      obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_main.o
+_edata                                            obj/sram_isp_cstartup.o
+_ezero                                            obj/sram_isp_cstartup.o
+_sdata                                            obj/sram_isp_cstartup.o
+_sidata                                           obj/sram_isp_cstartup.o
+_sstack                                           obj/sram_isp_cstartup.o
+_szero                                            obj/sram_isp_cstartup.o
+end                                               obj/sram_main.o
+exception_table                                   obj/sram_isp_cstartup.o
+isInitialized                                     obj/sram_isp_cstartup.o
+mailbox                                           obj/sram_isp_cstartup.o
+main                                              obj/sram_main.o
+                                                  obj/sram_isp_cstartup.o
+memcpy                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                                                  obj/sram_NandFlashModel.o
+                                                  obj/sram_EccNandFlash.o
+memset                                            /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                                                  obj/sram_SkipBlockNandFlash.o
+                                                  obj/sram_EccNandFlash.o
+                                                  obj/sram_main.o
+nandFlashModelList                                obj/sram_NandFlashModelList.o
+                                                  obj/sram_RawNandFlash.o
+nandSpareScheme2048                               obj/sram_NandSpareScheme.o
+                                                  obj/sram_NandFlashModelList.o
+nandSpareScheme256                                obj/sram_NandSpareScheme.o
+                                                  obj/sram_NandFlashModelList.o
+nandSpareScheme4096                               obj/sram_NandSpareScheme.o
+nandSpareScheme512                                obj/sram_NandSpareScheme.o
+                                                  obj/sram_NandFlashModelList.o

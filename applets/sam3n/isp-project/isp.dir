@@ -1,0 +1,72 @@
+/* ----------------------------------------------------------------------------
+ *         ATMEL Microcontroller Software Support 
+ * ----------------------------------------------------------------------------
+ * Copyright (c) 2009, Atmel Corporation
+ *
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright notice,
+ * this list of conditions and the disclaimer below.
+ *
+ * Atmel's name may not be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * DISCLAIMER: THIS SOFTWARE IS PROVIDED BY ATMEL "AS IS" AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT ARE
+ * DISCLAIMED. IN NO EVENT SHALL ATMEL BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+ * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ *  \page isp_applet SAM-BA Applet
+ *  \section Purpose
+ * 
+ *  This directory provides some re-usable code to build
+ *  SAM-BA applets of ISP.
+ * 
+ *  \section Overview
+ *  To program non-volatile memories, SAM-BA uses several small binary files 
+ *  we called 'applets'. In generally, there is one applet dedicated to another 
+ *  external memory device that AT91SAM chip can deal with. And each applet 
+ *  contains the special programming algorithm for corresponding memory. Currently, 
+ *  SAM-BA is integrated with applets that supporting internal flash and nandflash.
+ * 
+ *  - \subpage flash_applet
+ *  - \subpage nandflash_applet
+ *
+ *  \section applet_application Applet Application
+ * The applet code consists
+ *    - a mailbox for commands and data read or written by SAM-BA GUI application,
+ *    - at least an init part used to initialize PIOs and configure access to the memory,
+ *    - some other read, write, erase parts,
+ *    - a buffer area located after the applet code that contains the data to be written or read by the applet. 
+ *
+ *  \section applet_preload Preload Mechanism
+ * To program memory device, it usually use page for the smallest programmable unit
+ * of flash memory. That will cause too much mode switches between host and applet
+ * mode if program large files.
+ * More efficient method to decrease switches is using payload.
+ * - The whole programming operation is split by the host into payloads. 
+ *   - It uses buffer (multiple of pages) insteading of single page programming.  
+ *   - The host prepares the MailBox with the Buffer write command value, the buffer
+ * address and the buffer size. 
+ * - The host then forces the device in Applet mode using a TCL_Go command. 
+ * - The host polls the %end of payload programmation by trying to read the state 
+ * value in the MailBox. 
+ * - The applet will answer to the host as soon as it returns to ROM monitor mode. 
+ *   - Applet execution has to be short enough in order to prevent from connection 
+ * timeout error. 
+ */
+ 
+/

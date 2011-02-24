@@ -1,0 +1,517 @@
+Archive member included because of file (symbol)
+
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+                              obj/sram_stdio.o (__aeabi_uidiv)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 obj/sram_isp_cstartup.o
+ .bss           0x00000000        0x0 obj/sram_isp_cstartup.o
+ .text          0x00000000        0x0 obj/sram_main.o
+ .data          0x00000000        0x0 obj/sram_main.o
+ .text          0x00000000        0x0 obj/sram_twid.o
+ .data          0x00000000        0x0 obj/sram_twid.o
+ .bss           0x00000000        0x0 obj/sram_twid.o
+ .text.TWID_Handler
+                0x00000000        0x0 obj/sram_twid.o
+ .text          0x00000000        0x0 obj/sram_stdio.o
+ .bss           0x00000000        0x0 obj/sram_stdio.o
+ .text.puts     0x00000000        0x0 obj/sram_stdio.o
+ .text.sprintf  0x00000000        0x0 obj/sram_stdio.o
+ .text.fprintf  0x00000000        0x0 obj/sram_stdio.o
+ .text.snprintf
+                0x00000000        0x0 obj/sram_stdio.o
+ .text          0x00000000        0x0 obj/sram_math.o
+ .data          0x00000000        0x0 obj/sram_math.o
+ .bss           0x00000000        0x0 obj/sram_math.o
+ .text.absv     0x00000000        0x0 obj/sram_math.o
+ .text          0x00000000        0x0 obj/sram_string.o
+ .data          0x00000000        0x0 obj/sram_string.o
+ .bss           0x00000000        0x0 obj/sram_string.o
+ .text.memset   0x00000000        0x0 obj/sram_string.o
+ .text.strchr   0x00000000        0x0 obj/sram_string.o
+ .text.strlen   0x00000000        0x0 obj/sram_string.o
+ .text.strrchr  0x00000000        0x0 obj/sram_string.o
+ .text.strcpy   0x00000000        0x0 obj/sram_string.o
+ .text.strncmp  0x00000000        0x0 obj/sram_string.o
+ .text.strncpy  0x00000000        0x0 obj/sram_string.o
+ .text          0x00000000        0x0 obj/sram_trace.o
+ .bss           0x00000000        0x0 obj/sram_trace.o
+ .text.putchar  0x00000000        0x0 obj/sram_trace.o
+ .text.TRACE_GetHexa32
+                0x00000000        0x0 obj/sram_trace.o
+ .text.TRACE_GetInteger
+                0x00000000        0x0 obj/sram_trace.o
+ .text.TRACE_GetIntegerMinMax
+                0x00000000        0x0 obj/sram_trace.o
+ .text.TRACE_DumpFrame
+                0x00000000        0x0 obj/sram_trace.o
+ .text.PrintChar
+                0x00000000        0x0 obj/sram_trace.o
+ .text.TRACE_DumpMemory
+                0x00000000        0x0 obj/sram_trace.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/sram_trace.o
+ .text          0x00000000        0x0 obj/sram_dbgu.o
+ .data          0x00000000        0x0 obj/sram_dbgu.o
+ .bss           0x00000000        0x0 obj/sram_dbgu.o
+ .text.DBGU_IsRxReady
+                0x00000000        0x0 obj/sram_dbgu.o
+ .text.DBGU_GetChar
+                0x00000000        0x0 obj/sram_dbgu.o
+ .text          0x00000000        0x0 obj/sram_pio.o
+ .data          0x00000000        0x0 obj/sram_pio.o
+ .bss           0x00000000        0x0 obj/sram_pio.o
+ .text.PIO_Set  0x00000000        0x0 obj/sram_pio.o
+ .text.PIO_Clear
+                0x00000000        0x0 obj/sram_pio.o
+ .text.PIO_Get  0x00000000        0x0 obj/sram_pio.o
+ .text.PIO_GetOutputDataStatus
+                0x00000000        0x0 obj/sram_pio.o
+ .text          0x00000000        0x0 obj/sram_aic.o
+ .data          0x00000000        0x0 obj/sram_aic.o
+ .bss           0x00000000        0x0 obj/sram_aic.o
+ .text.IRQ_ConfigureIT
+                0x00000000        0x0 obj/sram_aic.o
+ .text.IRQ_EnableIT
+                0x00000000        0x0 obj/sram_aic.o
+ .text.IRQ_DisableIT
+                0x00000000        0x0 obj/sram_aic.o
+ .text          0x00000000        0x0 obj/sram_twi.o
+ .data          0x00000000        0x0 obj/sram_twi.o
+ .bss           0x00000000        0x0 obj/sram_twi.o
+ .text.TWI_SendSTOPCondition
+                0x00000000        0x0 obj/sram_twi.o
+ .text.TWI_GetMaskedStatus
+                0x00000000        0x0 obj/sram_twi.o
+ .text.TWI_GetStatus
+                0x00000000        0x0 obj/sram_twi.o
+ .text.TWI_DisableIt
+                0x00000000        0x0 obj/sram_twi.o
+ .text.TWI_ConfigureSlave
+                0x00000000        0x0 obj/sram_twi.o
+ .text          0x00000000        0x0 obj/sram_cp15.o
+ .data          0x00000000        0x0 obj/sram_cp15.o
+ .bss           0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_LockDcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_LockIcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_IsDcacheEnabled
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_IsMMUEnabled
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_IsIcacheEnabled
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_DisableDcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_ShutdownDcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_EnableDcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_DisableMMU
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_EnableMMU
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_DisableIcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .text.CP15_EnableIcache
+                0x00000000        0x0 obj/sram_cp15.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/sram_cp15.o
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+romcodesram      0x00100000         0x00001000         w !xr
+sram             0x00101000         0x00007000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/sram_isp_cstartup.o
+LOAD obj/sram_main.o
+LOAD obj/sram_twid.o
+LOAD obj/sram_stdio.o
+LOAD obj/sram_math.o
+LOAD obj/sram_string.o
+LOAD obj/sram_trace.o
+LOAD obj/sram_dbgu.o
+LOAD obj/sram_pio.o
+LOAD obj/sram_aic.o
+LOAD obj/sram_twi.o
+LOAD obj/sram_cp15.o
+START GROUP
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+
+.fixed0         0x00101000     0x1cf4
+                0x00101000                . = ALIGN (0x4)
+                0x00101000                _sfixed0 = .
+ *(.vectors)
+ *(.text*)
+ .text          0x00101000       0xf0 obj/sram_isp_cstartup.o
+                0x00101000                entry
+ .text.EepromDeviceCheck
+                0x001010f0      0x194 obj/sram_main.o
+                0x001010f0                EepromDeviceCheck
+ .text.main     0x00101284      0x514 obj/sram_main.o
+                0x00101284                main
+ .text.TWID_Initialize
+                0x00101798       0xb4 obj/sram_twid.o
+                0x00101798                TWID_Initialize
+ .text.TWID_Write
+                0x0010184c      0x2b0 obj/sram_twid.o
+                0x0010184c                TWID_Write
+ .text.TWID_Read
+                0x00101afc      0x2b0 obj/sram_twid.o
+                0x00101afc                TWID_Read
+ .text.PutChar  0x00101dac        0xc obj/sram_stdio.o
+                0x00101dac                PutChar
+ .text.PutString
+                0x00101db8       0x24 obj/sram_stdio.o
+                0x00101db8                PutString
+ .text.PutUnsignedInt
+                0x00101ddc       0xd0 obj/sram_stdio.o
+                0x00101ddc                PutUnsignedInt
+ .text.PutSignedInt
+                0x00101eac      0x12c obj/sram_stdio.o
+                0x00101eac                PutSignedInt
+ .text.PutHexa  0x00101fd8       0xc8 obj/sram_stdio.o
+                0x00101fd8                PutHexa
+ .text.vsnprintf
+                0x001020a0      0x1cc obj/sram_stdio.o
+                0x001020a0                vsnprintf
+ .text.vsprintf
+                0x0010226c       0x28 obj/sram_stdio.o
+                0x0010226c                vsprintf
+ .text.vfprintf
+                0x00102294       0xa4 obj/sram_stdio.o
+                0x00102294                vfprintf
+ .text.vprintf  0x00102338       0x38 obj/sram_stdio.o
+                0x00102338                vprintf
+ .text.printf   0x00102370       0x34 obj/sram_stdio.o
+                0x00102370                printf
+ .text.min      0x001023a4        0xc obj/sram_math.o
+                0x001023a4                min
+ .text.power    0x001023b0       0x20 obj/sram_math.o
+                0x001023b0                power
+ .text.memcpy   0x001023d0       0x8c obj/sram_string.o
+                0x001023d0                memcpy
+ .text.fputc    0x0010245c       0x50 obj/sram_trace.o
+                0x0010245c                fputc
+ .text.fputs    0x001024ac       0x50 obj/sram_trace.o
+                0x001024ac                fputs
+ .text.DBGU_Configure
+                0x001024fc       0x58 obj/sram_dbgu.o
+                0x001024fc                DBGU_Configure
+ .text.DBGU_PutChar
+                0x00102554       0x28 obj/sram_dbgu.o
+                0x00102554                DBGU_PutChar
+ .text.PIO_Configure
+                0x0010257c      0x120 obj/sram_pio.o
+                0x0010257c                PIO_Configure
+ .text.TWI_ByteReceived
+                0x0010269c       0x10 obj/sram_twi.o
+                0x0010269c                TWI_ByteReceived
+ .text.TWI_ByteSent
+                0x001026ac       0x10 obj/sram_twi.o
+                0x001026ac                TWI_ByteSent
+ .text.TWI_TransferComplete
+                0x001026bc        0xc obj/sram_twi.o
+                0x001026bc                TWI_TransferComplete
+ .text.TWI_EnableIt
+                0x001026c8       0x8c obj/sram_twi.o
+                0x001026c8                TWI_EnableIt
+ .text.TWI_WriteByte
+                0x00102754       0x50 obj/sram_twi.o
+                0x00102754                TWI_WriteByte
+ .text.TWI_StartWrite
+                0x001027a4      0x11c obj/sram_twi.o
+                0x001027a4                TWI_StartWrite
+ .text.TWI_ReadByte
+                0x001028c0       0x54 obj/sram_twi.o
+                0x001028c0                TWI_ReadByte
+ .text.TWI_StartRead
+                0x00102914      0x104 obj/sram_twi.o
+                0x00102914                TWI_StartRead
+ .text.TWI_Stop
+                0x00102a18       0x54 obj/sram_twi.o
+                0x00102a18                TWI_Stop
+ .text.TWI_ConfigureMaster
+                0x00102a6c      0x170 obj/sram_twi.o
+                0x00102a6c                TWI_ConfigureMaster
+ .text          0x00102bdc      0x114 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+                0x00102bdc                __udivsi3
+                0x00102bdc                __aeabi_uidiv
+                0x00102cd0                __aeabi_uidivmod
+ .text          0x00102cf0        0x4 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+                0x00102cf0                __aeabi_ldiv0
+                0x00102cf0                __aeabi_idiv0
+ *(.CP15_*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x00102cf4                . = ALIGN (0x4)
+                0x00102cf4                _efixed0 = .
+                0x00102cf4                _efixed = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fixed1         0x00102cf8      0x8cc
+                0x00102cf8                . = ALIGN (0x4)
+                0x00102cf8                _sfixed1 = .
+ *(.rodata*)
+ .rodata        0x00102cf8       0x9c obj/sram_main.o
+ .rodata.str1.1
+                0x00102d94      0x210 obj/sram_main.o
+ .rodata.str1.1
+                0x00102fa4      0x11c obj/sram_twid.o
+ .rodata.str1.1
+                0x001030c0       0x24 obj/sram_stdio.o
+ .rodata.str1.1
+                0x001030e4       0xac obj/sram_twi.o
+                                 0xd8 (size before relaxing)
+ *(.data)
+ .data          0x00103190      0x430 obj/sram_stdio.o
+                0x00103198                r
+                0x00103190                _impure_ptr
+ .data          0x001035c0        0x4 obj/sram_trace.o
+                0x001035c0                traceLevel
+                0x001035c4                . = ALIGN (0x4)
+                0x001035c4                _efixed1 = .
+
+.prerelocate    0x00000000        0x0 load address 0x00102cf4
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sprerelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _eprerelocate = .
+
+.postrelocate   0x00000000        0x0 load address 0x00102cf4
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _spostrelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _epostrelocate = .
+
+.bss            0x001035c4       0x10
+                0x001035c4                _szero = .
+ *(.bss)
+ .bss           0x001035c4       0x10 obj/sram_main.o
+                0x001035d4                . = ALIGN (0x4)
+                0x001035d4                _ezero = .
+                0x00108000                _sstack = 0x108000
+                0x001035d4                end = .
+OUTPUT(bin/isp-eeprom-at91cap9.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x16 obj/sram_isp_cstartup.o
+ .ARM.attributes
+                0x00000016       0x30 obj/sram_main.o
+ .ARM.attributes
+                0x00000046       0x30 obj/sram_twid.o
+ .ARM.attributes
+                0x00000076       0x30 obj/sram_stdio.o
+ .ARM.attributes
+                0x000000a6       0x30 obj/sram_math.o
+ .ARM.attributes
+                0x000000d6       0x30 obj/sram_string.o
+ .ARM.attributes
+                0x00000106       0x30 obj/sram_trace.o
+ .ARM.attributes
+                0x00000136       0x30 obj/sram_dbgu.o
+ .ARM.attributes
+                0x00000166       0x30 obj/sram_pio.o
+ .ARM.attributes
+                0x00000196       0x30 obj/sram_aic.o
+ .ARM.attributes
+                0x000001c6       0x30 obj/sram_twi.o
+ .ARM.attributes
+                0x000001f6       0x30 obj/sram_cp15.o
+ .ARM.attributes
+                0x00000226       0x16 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000023c       0x14 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+
+.comment        0x00000000      0x1d9
+ .comment       0x00000000       0x2b obj/sram_main.o
+ .comment       0x0000002b       0x2b obj/sram_twid.o
+ .comment       0x00000056       0x2b obj/sram_stdio.o
+ .comment       0x00000081       0x2b obj/sram_math.o
+ .comment       0x000000ac       0x2b obj/sram_string.o
+ .comment       0x000000d7       0x2b obj/sram_trace.o
+ .comment       0x00000102       0x2b obj/sram_dbgu.o
+ .comment       0x0000012d       0x2b obj/sram_pio.o
+ .comment       0x00000158       0x2b obj/sram_aic.o
+ .comment       0x00000183       0x2b obj/sram_twi.o
+ .comment       0x000001ae       0x2b obj/sram_cp15.o
+
+.debug_line     0x00000000     0x1125
+ .debug_line    0x00000000       0x61 obj/sram_isp_cstartup.o
+ .debug_line    0x00000061      0x19b obj/sram_main.o
+ .debug_line    0x000001fc      0x1a0 obj/sram_twid.o
+ .debug_line    0x0000039c      0x2fe obj/sram_stdio.o
+ .debug_line    0x0000069a       0x76 obj/sram_math.o
+ .debug_line    0x00000710      0x157 obj/sram_string.o
+ .debug_line    0x00000867      0x27e obj/sram_trace.o
+ .debug_line    0x00000ae5       0xd6 obj/sram_dbgu.o
+ .debug_line    0x00000bbb      0x12e obj/sram_pio.o
+ .debug_line    0x00000ce9       0xb8 obj/sram_aic.o
+ .debug_line    0x00000da1      0x21e obj/sram_twi.o
+ .debug_line    0x00000fbf      0x166 obj/sram_cp15.o
+
+.debug_info     0x00000000     0x4480
+ .debug_info    0x00000000       0x89 obj/sram_isp_cstartup.o
+ .debug_info    0x00000089      0xb18 obj/sram_main.o
+ .debug_info    0x00000ba1      0x591 obj/sram_twid.o
+ .debug_info    0x00001132      0xeb1 obj/sram_stdio.o
+ .debug_info    0x00001fe3      0x116 obj/sram_math.o
+ .debug_info    0x000020f9      0x346 obj/sram_string.o
+ .debug_info    0x0000243f      0xbfc obj/sram_trace.o
+ .debug_info    0x0000303b      0x283 obj/sram_dbgu.o
+ .debug_info    0x000032be      0x6d5 obj/sram_pio.o
+ .debug_info    0x00003993      0x25c obj/sram_aic.o
+ .debug_info    0x00003bef      0x616 obj/sram_twi.o
+ .debug_info    0x00004205      0x27b obj/sram_cp15.o
+
+.debug_abbrev   0x00000000     0x104c
+ .debug_abbrev  0x00000000       0x14 obj/sram_isp_cstartup.o
+ .debug_abbrev  0x00000014      0x1f1 obj/sram_main.o
+ .debug_abbrev  0x00000205      0x1b0 obj/sram_twid.o
+ .debug_abbrev  0x000003b5      0x2b8 obj/sram_stdio.o
+ .debug_abbrev  0x0000066d       0xba obj/sram_math.o
+ .debug_abbrev  0x00000727      0x11d obj/sram_string.o
+ .debug_abbrev  0x00000844      0x263 obj/sram_trace.o
+ .debug_abbrev  0x00000aa7       0xd3 obj/sram_dbgu.o
+ .debug_abbrev  0x00000b7a      0x1a4 obj/sram_pio.o
+ .debug_abbrev  0x00000d1e       0xd2 obj/sram_aic.o
+ .debug_abbrev  0x00000df0      0x173 obj/sram_twi.o
+ .debug_abbrev  0x00000f63       0xe9 obj/sram_cp15.o
+
+.debug_aranges  0x00000000      0x3a0
+ .debug_aranges
+                0x00000000       0x20 obj/sram_isp_cstartup.o
+ .debug_aranges
+                0x00000020       0x28 obj/sram_main.o
+ .debug_aranges
+                0x00000048       0x38 obj/sram_twid.o
+ .debug_aranges
+                0x00000080       0x88 obj/sram_stdio.o
+ .debug_aranges
+                0x00000108       0x30 obj/sram_math.o
+ .debug_aranges
+                0x00000138       0x58 obj/sram_string.o
+ .debug_aranges
+                0x00000190       0x60 obj/sram_trace.o
+ .debug_aranges
+                0x000001f0       0x38 obj/sram_dbgu.o
+ .debug_aranges
+                0x00000228       0x40 obj/sram_pio.o
+ .debug_aranges
+                0x00000268       0x30 obj/sram_aic.o
+ .debug_aranges
+                0x00000298       0x90 obj/sram_twi.o
+ .debug_aranges
+                0x00000328       0x78 obj/sram_cp15.o
+
+.debug_frame    0x00000000      0x878
+ .debug_frame   0x00000000       0x60 obj/sram_main.o
+ .debug_frame   0x00000060       0x9c obj/sram_twid.o
+ .debug_frame   0x000000fc      0x1b0 obj/sram_stdio.o
+ .debug_frame   0x000002ac       0x40 obj/sram_math.o
+ .debug_frame   0x000002ec       0xa8 obj/sram_string.o
+ .debug_frame   0x00000394      0x118 obj/sram_trace.o
+ .debug_frame   0x000004ac       0x5c obj/sram_dbgu.o
+ .debug_frame   0x00000508       0x68 obj/sram_pio.o
+ .debug_frame   0x00000570       0x48 obj/sram_aic.o
+ .debug_frame   0x000005b8      0x16c obj/sram_twi.o
+ .debug_frame   0x00000724      0x134 obj/sram_cp15.o
+ .debug_frame   0x00000858       0x20 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+
+.debug_loc      0x00000000     0x1ed8
+ .debug_loc     0x00000000      0x331 obj/sram_main.o
+ .debug_loc     0x00000331      0x532 obj/sram_twid.o
+ .debug_loc     0x00000863      0x6dc obj/sram_stdio.o
+ .debug_loc     0x00000f3f       0x44 obj/sram_math.o
+ .debug_loc     0x00000f83      0x1e8 obj/sram_string.o
+ .debug_loc     0x0000116b      0x389 obj/sram_trace.o
+ .debug_loc     0x000014f4       0x63 obj/sram_dbgu.o
+ .debug_loc     0x00001557       0x81 obj/sram_pio.o
+ .debug_loc     0x000015d8       0x32 obj/sram_aic.o
+ .debug_loc     0x0000160a      0x651 obj/sram_twi.o
+ .debug_loc     0x00001c5b      0x27d obj/sram_cp15.o
+
+.debug_pubnames
+                0x00000000      0x60c
+ .debug_pubnames
+                0x00000000       0x31 obj/sram_main.o
+ .debug_pubnames
+                0x00000031       0x54 obj/sram_twid.o
+ .debug_pubnames
+                0x00000085       0xdf obj/sram_stdio.o
+ .debug_pubnames
+                0x00000164       0x2d obj/sram_math.o
+ .debug_pubnames
+                0x00000191       0x6d obj/sram_string.o
+ .debug_pubnames
+                0x000001fe       0xae obj/sram_trace.o
+ .debug_pubnames
+                0x000002ac       0x5a obj/sram_dbgu.o
+ .debug_pubnames
+                0x00000306       0x66 obj/sram_pio.o
+ .debug_pubnames
+                0x0000036c       0x49 obj/sram_aic.o
+ .debug_pubnames
+                0x000003b5      0x13c obj/sram_twi.o
+ .debug_pubnames
+                0x000004f1      0x11b obj/sram_cp15.o
+
+.debug_ranges   0x00000000      0x340
+ .debug_ranges  0x00000000       0x38 obj/sram_main.o
+ .debug_ranges  0x00000038       0x30 obj/sram_twid.o
+ .debug_ranges  0x00000068       0x80 obj/sram_stdio.o
+ .debug_ranges  0x000000e8       0x28 obj/sram_math.o
+ .debug_ranges  0x00000110       0x50 obj/sram_string.o
+ .debug_ranges  0x00000160       0x58 obj/sram_trace.o
+ .debug_ranges  0x000001b8       0x30 obj/sram_dbgu.o
+ .debug_ranges  0x000001e8       0x38 obj/sram_pio.o
+ .debug_ranges  0x00000220       0x28 obj/sram_aic.o
+ .debug_ranges  0x00000248       0x88 obj/sram_twi.o
+ .debug_ranges  0x000002d0       0x70 obj/sram_cp15.o
+
+.debug_str      0x00000000     0x119f
+ .debug_str     0x00000000      0x55c obj/sram_main.o
+                                0x5c2 (size before relaxing)
+ .debug_str     0x0000055c       0x99 obj/sram_twid.o
+                                0x2e8 (size before relaxing)
+ .debug_str     0x000005f5      0x48a obj/sram_stdio.o
+                                0x5bf (size before relaxing)
+ .debug_str     0x00000a7f       0x28 obj/sram_math.o
+                                0x111 (size before relaxing)
+ .debug_str     0x00000aa7       0xda obj/sram_string.o
+                                0x1e8 (size before relaxing)
+ .debug_str     0x00000b81       0xad obj/sram_trace.o
+                                0x58a (size before relaxing)
+ .debug_str     0x00000c2e      0x146 obj/sram_dbgu.o
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000d74       0xdd obj/sram_pio.o
+                                0x356 (size before relaxing)
+ .debug_str     0x00000e51      0x103 obj/sram_aic.o
+                                0x17c (size before relaxing)
+ .debug_str     0x00000f54      0x13d obj/sram_twi.o
+                                0x358 (size before relaxing)
+ .debug_str     0x00001091      0x10e obj/sram_cp15.o
+                                0x1fb (size before relaxing)

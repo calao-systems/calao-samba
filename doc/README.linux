@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------------------------
+ *         ATMEL Microcontroller Software Support 
+ * ----------------------------------------------------------------------------
+ * Copyright (c) 2009, Atmel Corporation
+ *
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright notice,
+ * this list of conditions and the disclaimer below.
+ *
+ * Atmel's name may not be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * DISCLAIMER: THIS SOFTWARE IS PROVIDED BY ATMEL "AS IS" AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT ARE
+ * DISCLAIMED. IN NO EVENT SHALL ATMEL BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+ * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ----------------------------------------------------------------------------
+ */
+
+
+This version of SAM-BA is designed to communicate with ATMEL AT91 devices only via
+a USB CDC Serial communication channel on Linux.
+
+
+
+Install :
+
+You just have to unzip the 'sam-ba_cdc_x.y.linux_zz.zip' archive in a folder
+of your choice.
+
+Note : packages needed : tcl8.4 tclx8.4 tk8.4.
+
+
+
+USB CDC Serial driver mount procedure :
+
+1/ Login with administrator rights
+
+2/ Unload usbserial module if it is already running
+#rmmod usbserial
+
+3/ Load usbserial kernel module
+#modprobe usbserial vendor=0x03eb product=0x6124
+
+4/ Verify that the USB connection is established
+#lsusb -d 03eb:6124
+Bus 004 Device 006: ID 03eb:6124 Atmel Corp
+
+5/ Know which USB connection is established
+#dmesg
+...
+kernel: usb 4-2: new full speed USB device using uhci_hcd and address 5
+kernel: usb 4-2: configuration #1 chosen from 1 choice
+kernel: usbserial_generic 4-2:1.0: generic converter detected
+kernel: usbserial_generic: probe of 4-2:1.0 failed with error -5
+kernel: usbserial_generic 4-2:1.1: generic converter detected
+kernel: usb 4-2: generic converter now attached to ttyUSBx
+
+=> you will have to use /dev/ttyUSBx to connect to your board
+
+
+
+Running SAM-BA CDC Serial version :
+
+Launch 'sam-ba_cdc_x.y.linux_zz' file, and select your board and the /dev/ttyUSBx
+device where your board in mounted on. 

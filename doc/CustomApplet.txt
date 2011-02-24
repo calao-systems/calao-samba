@@ -1,0 +1,415 @@
+********************************************************************************
+*                                                                              *
+*             How to modify SAM-BA to fit a custom AT91SAM board               *
+*                                                                              *
+********************************************************************************
+*                                                                              *
+* ATMEL Microcontroller Software Support                                       *
+* Copyright (c) 2010, Atmel Corporation                                        *
+*                                                                              *
+********************************************************************************
+
+
+
+1. Introduction
+
+Please refer to the SAM-BA User Guide.pdf file in the Documentation
+folder of Sam-ba.
+
+The aim of this file is to explain quickly with an example what you need to
+modify to make SAM-BA working with a custom board based on a AT91SAM device,
+and how to re-compile the applets if needed.
+
+Note : the example and and the corresponding paths indicated in this file are
+related to the AT91SAM9263 device, but the principle is the same for all
+other AT91SAM devices.
+
+
+1.1 Cases you need to recompile applets and customize SAM-BA
+
+    * the SDRAM is NOT connected with a 32 bits bus width (the standard
+      on EK boards),
+    * the pins used to connect Nandflash, Dataflash, Serialflash are not
+      the same as on the EK board. 
+
+
+2. SAM-BA quick overview
+
+2.1 Communication links
+
+The communication protocol consists in a very simple command set
+allowing to do read and write operations in the *mapped momory* of the
+chip. Read and write operations can be achieved with byte, short or
+integer data at one address, or with a multiple byte buffer starting at
+one given address.
+
+List of SAM-BA Monitor commands :
+
+Command |      Action        |     Argument(s)     |      Example     |    Comments
+========|====================|=====================|==================|==================
+   N    | set Normal mode    | No argument         | N#               | Data sent and
+        |                    |                     |                  | received by the 
+        |                    |                     |                  | monitor will be 
+        |                    |                     |                  | transmitted in
+        |                    |                     |                  | binary.
+--------|--------------------|---------------------|------------------|------------------
+   T    | set Terminal mode  | No argument         | T#               | Data will be
+        |                    |                     |                  | sent in ASCII.
+--------|--------------------|---------------------|------------------|------------------
+   O    | write a byte       | Address, Value#     | O200001,CA#      |
+--------|--------------------|---------------------|------------------|------------------
+   o    | read a byte        | Address,#           | o200001,#        |
+--------|--------------------|---------------------|------------------|------------------
+   H    | write a half word  | Address, Value#     | H200002,CAFE#    |
+--------|--------------------|---------------------|------------------|------------------
+   h    | read a half word   | Address,#           | h200002,#        |
+--------|--------------------|---------------------|------------------|------------------
+   W    | write a word       | Address, Value#     | W200000,CAFEDECA#|
+--------|--------------------|---------------------|------------------|------------------
+   w    | read a word        | Address,#           | w200000,#        |
+--------|--------------------|---------------------|------------------|------------------
+   S    | send a file        | Address,#           | S200000,#        |
+--------|--------------------|---------------------|------------------|------------------
+   R    | receive a file     | Address, NbOfBytes# | R200000,1234#    |
+--------|--------------------|---------------------|------------------|------------------
+   G    | go                 | Address#            | G200200#         |
+--------|--------------------|---------------------|------------------|------------------
+   V    | display version    | No argument         | V#               |
+--------|--------------------|---------------------|------------------|------------------
+
+Note : depending on the chip (and its ROM code version), the number of characters
+       returned by SAM-BA Monitor after a 'N#' or 'T#' may vary.
+       Usually after 'N#' the chip reply with 2 bytes : LF/CR (OxA, 0xD), and after 'T#'
+       the chip reply with 3 bytes : LF/CR and '>' (OxA, 0xD, 0x3E)
+
+At startup, SAM-BA GUI set the chip in Normal mode.
+
+Communication link can be serial COM port, USB or JTAG. To use USB and
+COM port link, SAM-BA needs SAM-BA Boot to be running on the target (it
+is part of the ROM Code of each device). So the chip must boot on the
+ROM code and must not have found a bootable program on any external
+memory such as Dataflash or Nandflash. To use the JTAG link with a
+SAM-ICE or J-Link probe, a "SAM-BA Boot like" application is loaded by
+the probe into chip internal SRAM after the probe has done a reset of
+the device.
+
+
+2.2 Applets
+
+In order to be able to program non-volatile memories, SAM-BA uses
+several small binary files called 'applets'. For each AT91SAM device,
+there is one applet dedicated to each external memory device the chip
+can deal with. Each applet contains the programming algorithm for its
+dedicated memory. To set an example, for an AT91SAM9263 devices, SAM-BA
+can program SDRAM, Nandflash, Dataflash, Serialflash, and Norflash. That
+is why you will find five binary files in :
+SAM-BA v2.x\tcl_lib\at91sam9263-ek folder.
+
+The applet code consists in :
+
+    * a mailbox data structure for commands and data read or written by
+      SAM-BA GUI application,
+    * at least an init part used to initialize PIOs and configure access
+      to the memory,
+    * some other read, write, erase parts,
+    * a buffer area located after the applet code that contains the data
+      to be written or read by the applet. 
+
+
+
+2.3 Runtime operations
+
+Excepted for devices without EBI (SAM7S ...), for internal flash
+applets, and for the applet used to initialize the external RAM itself,
+all applets are compiled to run at the beginning of the *external RAM*.
+That's why an external memory (SDRAM / DDRAM) *must* be correctly
+initialized.
+
+The external RAM init is automatically done when SAM-BA starts. This is
+achieved in TCL by the at91sam9263-ek.tcl file that loads the extram
+applet (isp-extram-at91sam9263.bin) in the internal SRAM of the chip and
+sends the INIT command to this applet. (see lines 99-109 in
+at91sam9263-ek.tcl).
+
+Note : the extram applet has only an INIT command that configures the EBI
+timings and tests that the accesses to the RAM is OK.
+
+Once the external RAM is initialized, we can use it to store other
+applet code and data to program external flashes (Dataflash or Nandflash
+for example).
+
+This step is done when you execute the "Enable Nandflash" script in
+SAM-BA GUI Nandflash pane : the Nandflash applet
+(isp-nandflash-at91sam9263.bin) is loaded at the beginning of the EXTRAM
+and the INIT command is written in the mailbox.
+
+
+3. Customizing SAM-BA
+
+In case you have a custom design that is different from the design of
+AT91SAM Evaluation Kit, you may need to adapt the code of the applets
+and recompile some of them. All the sources are provided with the
+Sam-ba installer, and applets are written in C.
+
+
+3.2 Folders structure
+
+The runtime directory for SAM-BA is C:\Program Files\ATMEL
+Corporation\SAM-BA v2.x\tcl_lib.
+All the files required by SAM-BA when it is running are under this folder.
+They are organized 
+
+    * a common files directory, with all generic TCL scripts used to
+      load applets, communicate with them, and perform read / write
+      operations,
+    * several board specific folders (into at91sam9263-ek\ for the
+      AT91SAM9263 for example), containing the applet binary files and
+      the TCL file used to describe the SAM-BA GUI for each board (what
+      memory is on the board, what is the aplet name for each memory ...). 
+
+The base directory of applet sources is : C:\Program Files\ATMEL
+Corporation\SAM-BA v2.x\applets.
+
+Applets code is based on the ATMEL "at91lib" that is the core of ATMEL
+Software Package structure. The at91lib folder contains :
+
+    * the memory algorithm sources (nandflash, dataflash, ...) : in
+      'components', 'drivers' and 'memories' folders,
+    * the at91 peripherals software library : in 'periperals' folder,
+    * some C utilities (traces, LEDs management ...) : in 'utility' folder,
+    * the board and device description files : in the
+      'boards\at91samxxxxx-ek' folders. 
+
+In this latest folder you will find important files to make the right
+initialization of your device and the connected memories. Here is its
+detailed contents :
+
+    o board.h : you will find here all the defines of the PIOs
+      used to connect the memories to the device, the Main Clock
+      Frequency definiton ...
+    o board_memories.c : here are written the function for setting
+      the right timings and modes to access to parallel memories :
+      SDRAM, Nandflash, Norflash.
+    o board_lowlevel.c : Clock and PMC initializations of the chip. 
+
+Finally, in the at91samxxxxx\ folder you will find the C header file for
+the device definig all the registers addresses and bitfields, and the
+linker files indicating where the code will execute and where data will
+be placed.
+
+The isp-applets folder contains the applets projects files. For each
+memory correspond a folder, for example in 'dataflash' is the main.c and
+makefile files for the dataflash applet. This is the code used to handle
+the commands sent by the SAM-BA GUI. The common folder contains the
+applet.h with all commands that the applets can understand and their
+return code, and a specific cstartup.S used for all applets instead of
+the generic one for standalone applications found in
+at91lib/boards/at91samxxx-ek/board_cstartup.S.
+
+All "make" command lines to be executed to compile each applet for
+each board and memory can be found in sam-ba v2.x\applets\build.log
+file.
+Usually, you won't need to recompile all the applets for all of the
+boards, but just copy the command line from build.log concerning the
+applet/board you want to compile.
+
+
+3.3 Required tools for compilation
+
+Here are the tools you will need to successfully recompile the applets
+for your board :
+
+    * A GNU compiler toolchain (for example the Sourcery G++ for ARM
+      EABI by Codesourcery : http://www.codesourcery.com/).
+    * A make utility and also cp, mkdir, and rm commands (Can be found
+      in GNUWin32 packages (http://gnuwin32.sourceforge.net/) that are
+      win32 adaptation of very useful unix tools). 
+
+
+3.4 Example
+
+Let's consider you have a AT91SAM9263 device on a custom board with :
+
+    * a SDRAM connected to the 9263 device with a 16 bits bus (32bits on
+      the EK board),
+    * a Nandflash with a 16 bits bus width (8bits on the EK board),
+    * a Dataflash AT45DB321D connected on SPI1, NPCS0 (SPI0 and NPCS0 on
+      the EK board). 
+
+"Why SAM-BA is not able to connect to my board, and cannot program my
+memory devices ?"
+
+Several parameters cannot be automatically detected at runtime, that's
+why SAM-BA is not "universal" and needs some small modifications in
+applets to fit your design.
+
+
+3.4.1 First modification
+
+SDRAM initialization : With provided SAM-BA configuration files, you'll get
+the popup window :
+
+|----------------------------------------------------|
+|   External RAM init.                               |
+|----------------------------------------------------|
+|   External RAM initialization failed.              |
+|   External RAM access is required to run applets.  |
+|   Continue anyway ?                                |
+|                                                    |
+|                 YES            NO                  |
+|----------------------------------------------------|
+
+You get this message because by default the SAM-BA extram settings configures
+the SDRAM controller for a 32 bits SDRAM (excepted for at91sam7se where
+SDRAM is configured in 16 bits).
+When SDRAM controller initialization is done, extram applet will try to
+write some patterns into it and in your case it will fail to read them
+successfully.
+So the applet returns an error and SAM-BA GUI shows the popup (remember that
+other applets are running in this external RAM).
+
+Fix : You must tell the extram applet to configure the buswidth to 16
+bit.
+Edit the file tcl_lib\at91sam9263-ek\at91sam9263-ek.tcl".
+Find the variable : extRamDataBusWidth an replace the default value of 32 by 16. 
+Save the file.
+
+Now, your 16 bits SDRAM should be correctly initialized with this new setting
+by the extram applet when launched at SAM-BA startup.
+You can test it now : launch SAM-BA and you should not see the popup message
+about external RAM initialization.
+
+
+3.4.2 Nandflash detection
+
+You will not have any problem with the detection of the Nandflash type and bus width
+because all parameters are retrieved with the Read ID operation (Block
+size, Page size, bus width ...) and these parameters are automatically
+configured during Nandflash Init.
+
+
+3.4.3 Dataflash pinout
+
+Since your dataflash is connected to different pins than on the EK
+board, you need to indicate it to the applet. As it is a board specific
+configuration, you need to edit the
+applets\at91lib\boards\at91sam9263-ek\board.h file. Look for the SPI0
+pin defintions into the PIO definition section. Add the definitions for
+SPI1 pins (please refer to the datasheet of the device) :
+
+    /// SPI1 MISO pin definition.
+    #define PIN_SPI1_MISO  {1 << 12, AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_PERIPH_A, PIO_PULLUP}
+    /// SPI1 MOSI pin definition.
+    #define PIN_SPI1_MOSI  {1 << 13, AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_PERIPH_A, PIO_PULLUP}
+    /// SPI1 SPCK pin definition.
+    #define PIN_SPI1_SPCK  {1 << 14, AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_PERIPH_A, PIO_PULLUP}
+    /// SPI1 peripheral pins definition (includes SPCK, MISO & MOSI).
+    #define PINS_SPI1      PIN_SPI1_MISO, PIN_SPI1_MOSI, PIN_SPI1_SPCK
+    /// SPI1 chip select 0 pin definition.
+    #define PIN_SPI1_NPCS0 {1 << 15, AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_PERIPH_A, PIO_PULLUP}
+
+The pin structure for these definitions is simple :
+
+    * index of the PIO in the PIO controller ((1 << 12) for PIOB12)
+    * base address of the PIO controller corresponding to the pin,
+    * id of the peripheral in the PMC,
+    * the peripheral on which you want to attach the PIO,
+    * finally, the state of the PIO. 
+
+Look now for the external memories part in the same file, find the
+"BOARD_AT45" definitions and write the new definitions of your dataflash
+
+    /// Base address of SPI peripheral connected to the dataflash.
+    #define BOARD_AT45_A_SPI_BASE         AT91C_BASE_SPI1
+    /// Identifier of SPI peripheral connected to the dataflash.
+    #define BOARD_AT45_A_SPI_ID           AT91C_ID_SPI1
+    /// Pins of the SPI peripheral connected to the dataflash.
+    #define BOARD_AT45_A_SPI_PINS         PINS_SPI1
+    /// Dataflash SPI number.
+    #define BOARD_AT45_A_SPI              1
+    /// Chip select connected to the dataflash.
+    #define BOARD_AT45_A_NPCS             1
+    /// Chip select pin connected to the dataflash.
+    #define BOARD_AT45_A_NPCS_PIN         PIN_SPI0_NPCS1
+
+Note that the "A" in names refers to the Dataflash index 0 in SAM-BA GUI
+TCL file I you want a second one to be defined add BOARD_AT45_B....
+definitions, it will be usable as dataflash 1 in SAM-BA GUI.
+
+You can compile the applet now. Open a command line terminal, and change
+the current directory into applets\isp-applets\dataflash. Copy the make
+command for dataflash on 9263 from the applets\build.log file
+and paste it in the terminal :
+
+make clean BOARD=at91sam9263-ek CHIP=at91sam9263 sdram
+
+Press Enter, and you will get a new dataflash applet in the 'bin' subfolder.
+Be careful that this new applet is automatically copyed after build in target folder :
+SAM-BA v2.x\applets\isp-project\tcl_lib\at91sam9263-ek.
+
+You may need to backup the existing one in runtime folder :
+SAM-BA v2.x\tcl_lib\at91sam9263-ek.
+
+At last, you may overwrite the existing applet binary from the target folder to 
+sam-ba runtime folder.
+
+If you want, you can edit the file 
+tcl_lib\at91sam9263-ek\at91sam9263-ek.tcl file to modify
+the text displayed in SAM-BA Dataflash script Listbox. Find the
+dataflash script array definition and fix the text "Enable Dataflash"
+with SPI1 :
+
+  array set at91sam9263_dataflash_scripts {
+      "Enable Dataflash (SPI1 CS0)"                        "DATAFLASH::Init 0"
+      "Set DF in Power-Of-2 Page Size mode (Binary mode)"  "DATAFLASH::BinaryPage"
+      "Send Boot File"                                     "GENERIC::SendBootFileGUI"
+      "Erase All"                                          "DATAFLASH::EraseAll"
+  }
+
+The parameter "0" given to the DATAFLASH::Init script is related to the NPCS
+index of the dataflash in the applet. Have a look at the main.c file of this
+applet to find the dataflash descriptor array.
+
+You can try it now : launch SAM-BA GUI, select the Dataflash pane and
+execute the script Enable Dataflash (SPI1 NPCS0). Your dataflash should
+be correctly detected, and you can read/write files into it.
+
+That's all. SAM-BA is now fully adapted to your custom board.
+
+
+4. How to obtain debug traces
+
+You can debug the applet execution through the DBGU port (only if you
+connect SAM-BA to the board with USB or JTAG communication link). First
+of all, the applet must be compiled with the symbol DYN_TRACES defined (the
+default for most of the applets).
+Connect the board to the computer with the USB or JTAG, and connetc the DBGU
+to a COM port of the computer. Open an hyperterminal and connect to this COM
+port with the following settings : 115200 bps, 8 data bits, no parity bit,
+1 stop bit and no flow control.
+Launch SAM-BA and select your board.
+In the SAM-BA main window, you can find a "Applet traces on DBGU" frame with
+a list box containing the different levels of traces available.
+Until now, only "none" and "infos" are implemented in applets.
+Select the "infos" entry and then click on "Apply" button on the right
+of the listbox.
+Then you *MUST* execute the script performing the initialization of the applet
+of your choice ("Enable Datalash", or "Enable Nandflash" for example), this
+will send the trace level parameter to the applet, so it will configure
+the DBGU to send/receive characters.
+If you look at the hyperterminal, you will see something like :
+
+    -I- -- DataFlash AT45 ISP Applet 2.10 --
+    -I- -- AT91SAM9M10-EK
+    -I- -- Compiled: May 15 2010 20:40:17 --
+    -I- INIT command: Dataflash 0 : SPI 0x0 SPI_NPCS 0x0 (0x308014)
+    -I-     SPI NCSR 0x11a0502
+    -I-     SPI and AT45 drivers initialized
+    -I-     AT45DB321D numPages : 2000 pageSize : 210 bufferAddr : 0x70000000
+    -I-     End of applet (command : 0 --- status : 0)
+
+From now each call to the applet (with send or receive commandes for
+example) will make it to send traces to the DBGU. To disable it, you just
+have to select "none" in the list box, click on "Apply" and re-init the
+applet, then DBGU traces will stop.
+

@@ -1,0 +1,671 @@
+Archive member included because of file (symbol)
+
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+                              obj/sdram_stdio.o (__aeabi_uidiv)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+                              /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+                              obj/sdram_stdio.o (memcpy)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 obj/sdram_isp_cstartup.o
+ .bss           0x00000000        0x0 obj/sdram_isp_cstartup.o
+ .text          0x00000000        0x0 obj/sdram_main.o
+ .text          0x00000000        0x0 obj/sdram_NorFlashCommon.o
+ .data          0x00000000        0x0 obj/sdram_NorFlashCommon.o
+ .bss           0x00000000        0x0 obj/sdram_NorFlashCommon.o
+ .text          0x00000000        0x0 obj/sdram_NorFlashCFI.o
+ .data          0x00000000        0x0 obj/sdram_NorFlashCFI.o
+ .bss           0x00000000        0x0 obj/sdram_NorFlashCFI.o
+ .text.NorFlash_GetDeviceMinBlockSize
+                0x00000000        0x0 obj/sdram_NorFlashCFI.o
+ .text.NorFlash_GetDeviceBlockSize
+                0x00000000        0x0 obj/sdram_NorFlashCFI.o
+ .text          0x00000000        0x0 obj/sdram_NorFlashApi.o
+ .data          0x00000000        0x0 obj/sdram_NorFlashApi.o
+ .bss           0x00000000        0x0 obj/sdram_NorFlashApi.o
+ .text          0x00000000        0x0 obj/sdram_NorFlashAmd.o
+ .data          0x00000000        0x0 obj/sdram_NorFlashAmd.o
+ .bss           0x00000000        0x0 obj/sdram_NorFlashAmd.o
+ .text          0x00000000        0x0 obj/sdram_NorFlashIntel.o
+ .data          0x00000000        0x0 obj/sdram_NorFlashIntel.o
+ .bss           0x00000000        0x0 obj/sdram_NorFlashIntel.o
+ .text          0x00000000        0x0 obj/sdram_math.o
+ .data          0x00000000        0x0 obj/sdram_math.o
+ .bss           0x00000000        0x0 obj/sdram_math.o
+ .text.min      0x00000000        0x0 obj/sdram_math.o
+ .text.absv     0x00000000        0x0 obj/sdram_math.o
+ .text.power    0x00000000        0x0 obj/sdram_math.o
+ .text          0x00000000        0x0 obj/sdram_stdio.o
+ .bss           0x00000000        0x0 obj/sdram_stdio.o
+ .text.puts     0x00000000        0x0 obj/sdram_stdio.o
+ .text.sprintf  0x00000000        0x0 obj/sdram_stdio.o
+ .text.fprintf  0x00000000        0x0 obj/sdram_stdio.o
+ .text.snprintf
+                0x00000000        0x0 obj/sdram_stdio.o
+ .text          0x00000000        0x0 obj/sdram_trace.o
+ .bss           0x00000000        0x0 obj/sdram_trace.o
+ .text.putchar  0x00000000        0x0 obj/sdram_trace.o
+ .text.TRACE_GetHexa32
+                0x00000000        0x0 obj/sdram_trace.o
+ .text.TRACE_GetInteger
+                0x00000000        0x0 obj/sdram_trace.o
+ .text.TRACE_GetIntegerMinMax
+                0x00000000        0x0 obj/sdram_trace.o
+ .text.TRACE_DumpFrame
+                0x00000000        0x0 obj/sdram_trace.o
+ .text.PrintChar
+                0x00000000        0x0 obj/sdram_trace.o
+ .text.TRACE_DumpMemory
+                0x00000000        0x0 obj/sdram_trace.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/sdram_trace.o
+ .text          0x00000000        0x0 obj/sdram_dbgu.o
+ .data          0x00000000        0x0 obj/sdram_dbgu.o
+ .bss           0x00000000        0x0 obj/sdram_dbgu.o
+ .text.DBGU_IsRxReady
+                0x00000000        0x0 obj/sdram_dbgu.o
+ .text.DBGU_GetChar
+                0x00000000        0x0 obj/sdram_dbgu.o
+ .text          0x00000000        0x0 obj/sdram_pio.o
+ .data          0x00000000        0x0 obj/sdram_pio.o
+ .bss           0x00000000        0x0 obj/sdram_pio.o
+ .text.PIO_Set  0x00000000        0x0 obj/sdram_pio.o
+ .text.PIO_Clear
+                0x00000000        0x0 obj/sdram_pio.o
+ .text.PIO_Get  0x00000000        0x0 obj/sdram_pio.o
+ .text.PIO_GetOutputDataStatus
+                0x00000000        0x0 obj/sdram_pio.o
+ .text          0x00000000        0x0 obj/sdram_cp15.o
+ .data          0x00000000        0x0 obj/sdram_cp15.o
+ .bss           0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_LockDcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_LockIcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_IsDcacheEnabled
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_IsMMUEnabled
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_IsIcacheEnabled
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_DisableDcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_ShutdownDcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_EnableDcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_DisableMMU
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_EnableMMU
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_DisableIcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text.CP15_EnableIcache
+                0x00000000        0x0 obj/sdram_cp15.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/sdram_cp15.o
+ .text          0x00000000        0x0 obj/sdram_board_memories.o
+ .data          0x00000000        0x0 obj/sdram_board_memories.o
+ .bss           0x00000000        0x0 obj/sdram_board_memories.o
+ .text.sleep_time
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_RemapRom
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_RemapRam
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureVddMemSel
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureDdram
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureBcram
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureNandFlash
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureNandFlash48MHz
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureNorFlash48MHz
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .text.BOARD_ConfigureSdram
+                0x00000000        0x0 obj/sdram_board_memories.o
+ .rodata        0x00000000        0x0 obj/sdram_board_memories.o
+ .text          0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .data          0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .bss           0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .text.defaultSpuriousHandler
+                0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .text.defaultFiqHandler
+                0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .text.defaultIrqHandler
+                0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .text.LowLevelInit
+                0x00000000        0x0 obj/sdram_board_lowlevel.o
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram             0x00100000         0x00008000         w !xr
+sdram            0x70000000         0x02000000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/sdram_isp_cstartup.o
+LOAD obj/sdram_main.o
+LOAD obj/sdram_NorFlashCommon.o
+LOAD obj/sdram_NorFlashCFI.o
+LOAD obj/sdram_NorFlashApi.o
+LOAD obj/sdram_NorFlashAmd.o
+LOAD obj/sdram_NorFlashIntel.o
+LOAD obj/sdram_math.o
+LOAD obj/sdram_stdio.o
+LOAD obj/sdram_trace.o
+LOAD obj/sdram_dbgu.o
+LOAD obj/sdram_pio.o
+LOAD obj/sdram_cp15.o
+LOAD obj/sdram_board_memories.o
+LOAD obj/sdram_board_lowlevel.o
+START GROUP
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a
+LOAD /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+
+.fixed          0x70000000     0x393c
+                0x70000000                . = ALIGN (0x4)
+                0x70000000                _sfixed = .
+ *(.text*)
+ .text          0x70000000       0xf0 obj/sdram_isp_cstartup.o
+                0x70000000                entry
+ .text.main     0x700000f0      0x714 obj/sdram_main.o
+                0x700000f0                main
+ .text.WriteCommand
+                0x70000804       0x34 obj/sdram_NorFlashCommon.o
+                0x70000804                WriteCommand
+ .text.ReadRawData
+                0x70000838       0x30 obj/sdram_NorFlashCommon.o
+                0x70000838                ReadRawData
+ .text.WriteRawData
+                0x70000868       0x30 obj/sdram_NorFlashCommon.o
+                0x70000868                WriteRawData
+ .text.NorFlash_GetDeviceNumOfBlocks
+                0x70000898       0x4c obj/sdram_NorFlashCFI.o
+                0x70000898                NorFlash_GetDeviceNumOfBlocks
+ .text.NorFlash_GetDeviceMaxBlockSize
+                0x700008e4       0x50 obj/sdram_NorFlashCFI.o
+                0x700008e4                NorFlash_GetDeviceMaxBlockSize
+ .text.NorFlash_GetDeviceSectorInRegion
+                0x70000934       0xa4 obj/sdram_NorFlashCFI.o
+                0x70000934                NorFlash_GetDeviceSectorInRegion
+ .text.NorFlash_GetDeviceSectorAddress
+                0x700009d8       0xa4 obj/sdram_NorFlashCFI.o
+                0x700009d8                NorFlash_GetDeviceSectorAddress
+ .text.NorFlash_GetByteAddress
+                0x70000a7c        0xc obj/sdram_NorFlashCFI.o
+                0x70000a7c                NorFlash_GetByteAddress
+ .text.NorFlash_GetByteAddressInChip
+                0x70000a88       0x10 obj/sdram_NorFlashCFI.o
+                0x70000a88                NorFlash_GetByteAddressInChip
+ .text.NorFlash_GetAddressInChip
+                0x70000a98        0xc obj/sdram_NorFlashCFI.o
+                0x70000a98                NorFlash_GetAddressInChip
+ .text.NorFlash_GetDataBusWidth
+                0x70000aa4       0x10 obj/sdram_NorFlashCFI.o
+                0x70000aa4                NorFlash_GetDataBusWidth
+ .text.NorFlash_GetDeviceSizeInBytes
+                0x70000ab4       0x14 obj/sdram_NorFlashCFI.o
+                0x70000ab4                NorFlash_GetDeviceSizeInBytes
+ .text.NorFlash_CFI_DumpConfigruation
+                0x70000ac8      0x480 obj/sdram_NorFlashCFI.o
+                0x70000ac8                NorFlash_CFI_DumpConfigruation
+ .text.NorFlash_CFI_Detect
+                0x70000f48      0x12c obj/sdram_NorFlashCFI.o
+                0x70000f48                NorFlash_CFI_Detect
+ .text.NORFLASH_Reset
+                0x70001074       0x1c obj/sdram_NorFlashApi.o
+                0x70001074                NORFLASH_Reset
+ .text.NORFLASH_ReadManufactoryID
+                0x70001090       0x1c obj/sdram_NorFlashApi.o
+                0x70001090                NORFLASH_ReadManufactoryID
+ .text.NORFLASH_ReadDeviceID
+                0x700010ac       0x1c obj/sdram_NorFlashApi.o
+                0x700010ac                NORFLASH_ReadDeviceID
+ .text.NORFLASH_EraseSector
+                0x700010c8       0x1c obj/sdram_NorFlashApi.o
+                0x700010c8                NORFLASH_EraseSector
+ .text.NORFLASH_EraseChip
+                0x700010e4       0x1c obj/sdram_NorFlashApi.o
+                0x700010e4                NORFLASH_EraseChip
+ .text.NORFLASH_WriteData
+                0x70001100       0x1c obj/sdram_NorFlashApi.o
+                0x70001100                NORFLASH_WriteData
+ .text.NORFLASH_ReadData
+                0x7000111c       0xbc obj/sdram_NorFlashApi.o
+                0x7000111c                NORFLASH_ReadData
+ .text.amd_Reset
+                0x700011d8       0xac obj/sdram_NorFlashAmd.o
+                0x700011d8                amd_Reset
+ .text.AMD_Reset
+                0x70001284       0x1c obj/sdram_NorFlashAmd.o
+                0x70001284                AMD_Reset
+ .text.AMD_EraseChip
+                0x700012a0      0x1a4 obj/sdram_NorFlashAmd.o
+                0x700012a0                AMD_EraseChip
+ .text.amd_ReadIdentification
+                0x70001444      0x150 obj/sdram_NorFlashAmd.o
+                0x70001444                amd_ReadIdentification
+ .text.AMD_ReadDeviceID
+                0x70001594       0x20 obj/sdram_NorFlashAmd.o
+                0x70001594                AMD_ReadDeviceID
+ .text.AMD_ReadManufactoryId
+                0x700015b4       0x20 obj/sdram_NorFlashAmd.o
+                0x700015b4                AMD_ReadManufactoryId
+ .text.AMD_EraseSector
+                0x700015d4      0x198 obj/sdram_NorFlashAmd.o
+                0x700015d4                AMD_EraseSector
+ .text.amd_Program
+                0x7000176c      0x17c obj/sdram_NorFlashAmd.o
+                0x7000176c                amd_Program
+ .text.AMD_Write_Data
+                0x700018e8      0x10c obj/sdram_NorFlashAmd.o
+                0x700018e8                AMD_Write_Data
+ .text.intel_ClearStatus
+                0x700019f4       0x58 obj/sdram_NorFlashIntel.o
+                0x700019f4                intel_ClearStatus
+ .text.intel_Reset
+                0x70001a4c       0x5c obj/sdram_NorFlashIntel.o
+                0x70001a4c                intel_Reset
+ .text.INTEL_Reset
+                0x70001aa8       0x1c obj/sdram_NorFlashIntel.o
+                0x70001aa8                INTEL_Reset
+ .text.intel_UnlockSector
+                0x70001ac4       0x9c obj/sdram_NorFlashIntel.o
+                0x70001ac4                intel_UnlockSector
+ .text.intel_ReadStatus
+                0x70001b60       0x80 obj/sdram_NorFlashIntel.o
+                0x70001b60                intel_ReadStatus
+ .text.intel_Program
+                0x70001be0      0x100 obj/sdram_NorFlashIntel.o
+                0x70001be0                intel_Program
+ .text.INTEL_Write_Data
+                0x70001ce0      0x10c obj/sdram_NorFlashIntel.o
+                0x70001ce0                INTEL_Write_Data
+ .text.intel_ReadIdentification
+                0x70001dec       0xa8 obj/sdram_NorFlashIntel.o
+                0x70001dec                intel_ReadIdentification
+ .text.INTEL_ReadDeviceID
+                0x70001e94       0x20 obj/sdram_NorFlashIntel.o
+                0x70001e94                INTEL_ReadDeviceID
+ .text.INTEL_ReadManufactoryId
+                0x70001eb4       0x20 obj/sdram_NorFlashIntel.o
+                0x70001eb4                INTEL_ReadManufactoryId
+ .text.intel_GetBlockLockStatus
+                0x70001ed4       0x40 obj/sdram_NorFlashIntel.o
+                0x70001ed4                intel_GetBlockLockStatus
+ .text.INTEL_EraseSector
+                0x70001f14      0x158 obj/sdram_NorFlashIntel.o
+                0x70001f14                INTEL_EraseSector
+ .text.INTEL_EraseChip
+                0x7000206c       0x78 obj/sdram_NorFlashIntel.o
+                0x7000206c                INTEL_EraseChip
+ .text.PutChar  0x700020e4        0xc obj/sdram_stdio.o
+                0x700020e4                PutChar
+ .text.PutString
+                0x700020f0       0x24 obj/sdram_stdio.o
+                0x700020f0                PutString
+ .text.PutUnsignedInt
+                0x70002114       0xd0 obj/sdram_stdio.o
+                0x70002114                PutUnsignedInt
+ .text.PutSignedInt
+                0x700021e4      0x12c obj/sdram_stdio.o
+                0x700021e4                PutSignedInt
+ .text.PutHexa  0x70002310       0xc8 obj/sdram_stdio.o
+                0x70002310                PutHexa
+ .text.vsnprintf
+                0x700023d8      0x1cc obj/sdram_stdio.o
+                0x700023d8                vsnprintf
+ .text.vsprintf
+                0x700025a4       0x28 obj/sdram_stdio.o
+                0x700025a4                vsprintf
+ .text.vfprintf
+                0x700025cc       0xa4 obj/sdram_stdio.o
+                0x700025cc                vfprintf
+ .text.vprintf  0x70002670       0x38 obj/sdram_stdio.o
+                0x70002670                vprintf
+ .text.printf   0x700026a8       0x34 obj/sdram_stdio.o
+                0x700026a8                printf
+ .text.fputc    0x700026dc       0x50 obj/sdram_trace.o
+                0x700026dc                fputc
+ .text.fputs    0x7000272c       0x50 obj/sdram_trace.o
+                0x7000272c                fputs
+ .text.DBGU_Configure
+                0x7000277c       0x58 obj/sdram_dbgu.o
+                0x7000277c                DBGU_Configure
+ .text.DBGU_PutChar
+                0x700027d4       0x28 obj/sdram_dbgu.o
+                0x700027d4                DBGU_PutChar
+ .text.PIO_Configure
+                0x700027fc      0x120 obj/sdram_pio.o
+                0x700027fc                PIO_Configure
+ .text.BOARD_ConfigureNorFlash
+                0x7000291c       0x64 obj/sdram_board_memories.o
+                0x7000291c                BOARD_ConfigureNorFlash
+ .text          0x70002980      0x114 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+                0x70002980                __udivsi3
+                0x70002980                __aeabi_uidiv
+                0x70002a74                __aeabi_uidivmod
+ .text          0x70002a94        0x4 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+                0x70002a94                __aeabi_ldiv0
+                0x70002a94                __aeabi_idiv0
+ .text          0x70002a98      0x1ec /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+                0x70002a98                memcpy
+ *(.rodata*)
+ .rodata        0x70002c84       0x1c obj/sdram_main.o
+ .rodata.str1.1
+                0x70002ca0      0x2f4 obj/sdram_main.o
+ .rodata        0x70002f94       0x30 obj/sdram_NorFlashCFI.o
+                0x70002f94                amdOperations
+                0x70002fac                intelOperations
+ .rodata.str1.1
+                0x70002fc4      0x51e obj/sdram_NorFlashCFI.o
+ .rodata.str1.1
+                0x700034e2       0x24 obj/sdram_stdio.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.data)
+ .data          0x70003506        0x2 obj/sdram_main.o
+ .data          0x70003508      0x430 obj/sdram_stdio.o
+                0x70003510                r
+                0x70003508                _impure_ptr
+ .data          0x70003938        0x4 obj/sdram_trace.o
+                0x70003938                traceLevel
+ *(.CP15_*)
+                0x7000393c                . = ALIGN (0x4)
+                0x7000393c                _efixed = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.prerelocate    0x00000000        0x0 load address 0x7000393c
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sprerelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _eprerelocate = .
+
+.postrelocate   0x00100000        0x0 load address 0x7000393c
+                0x00100000                . = ALIGN (0x4)
+                0x00100000                _spostrelocate = .
+ *(.vectors)
+                0x00100000                . = ALIGN (0x4)
+                0x00100000                _epostrelocate = .
+
+.bss            0x7000393c       0x70
+                0x7000393c                _szero = .
+ *(.bss)
+ .bss           0x7000393c       0x70 obj/sdram_main.o
+                0x700039a4                memSize
+                0x700039ac                . = ALIGN (0x4)
+                0x700039ac                _ezero = .
+                0x72000000                _sstack = 0x72000000
+                0x700039ac                end = .
+OUTPUT(bin/isp-norflash-at91cap9.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x16 obj/sdram_isp_cstartup.o
+ .ARM.attributes
+                0x00000016       0x30 obj/sdram_main.o
+ .ARM.attributes
+                0x00000046       0x30 obj/sdram_NorFlashCommon.o
+ .ARM.attributes
+                0x00000076       0x30 obj/sdram_NorFlashCFI.o
+ .ARM.attributes
+                0x000000a6       0x30 obj/sdram_NorFlashApi.o
+ .ARM.attributes
+                0x000000d6       0x30 obj/sdram_NorFlashAmd.o
+ .ARM.attributes
+                0x00000106       0x30 obj/sdram_NorFlashIntel.o
+ .ARM.attributes
+                0x00000136       0x30 obj/sdram_math.o
+ .ARM.attributes
+                0x00000166       0x30 obj/sdram_stdio.o
+ .ARM.attributes
+                0x00000196       0x30 obj/sdram_trace.o
+ .ARM.attributes
+                0x000001c6       0x30 obj/sdram_dbgu.o
+ .ARM.attributes
+                0x000001f6       0x30 obj/sdram_pio.o
+ .ARM.attributes
+                0x00000226       0x30 obj/sdram_cp15.o
+ .ARM.attributes
+                0x00000256       0x30 obj/sdram_board_memories.o
+ .ARM.attributes
+                0x00000286       0x30 obj/sdram_board_lowlevel.o
+ .ARM.attributes
+                0x000002b6       0x16 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000002cc       0x14 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000002e0       0x30 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+
+.comment        0x00000000      0x25a
+ .comment       0x00000000       0x2b obj/sdram_main.o
+ .comment       0x0000002b       0x2b obj/sdram_NorFlashCommon.o
+ .comment       0x00000056       0x2b obj/sdram_NorFlashCFI.o
+ .comment       0x00000081       0x2b obj/sdram_NorFlashApi.o
+ .comment       0x000000ac       0x2b obj/sdram_NorFlashAmd.o
+ .comment       0x000000d7       0x2b obj/sdram_NorFlashIntel.o
+ .comment       0x00000102       0x2b obj/sdram_math.o
+ .comment       0x0000012d       0x2b obj/sdram_stdio.o
+ .comment       0x00000158       0x2b obj/sdram_trace.o
+ .comment       0x00000183       0x2b obj/sdram_dbgu.o
+ .comment       0x000001ae       0x2b obj/sdram_pio.o
+ .comment       0x000001d9       0x2b obj/sdram_cp15.o
+ .comment       0x00000204       0x2b obj/sdram_board_memories.o
+ .comment       0x0000022f       0x2b obj/sdram_board_lowlevel.o
+
+.debug_line     0x00000000     0x156c
+ .debug_line    0x00000000       0x61 obj/sdram_isp_cstartup.o
+ .debug_line    0x00000061      0x17c obj/sdram_main.o
+ .debug_line    0x000001dd       0x9a obj/sdram_NorFlashCommon.o
+ .debug_line    0x00000277      0x236 obj/sdram_NorFlashCFI.o
+ .debug_line    0x000004ad      0x104 obj/sdram_NorFlashApi.o
+ .debug_line    0x000005b1      0x182 obj/sdram_NorFlashAmd.o
+ .debug_line    0x00000733      0x1c6 obj/sdram_NorFlashIntel.o
+ .debug_line    0x000008f9       0x76 obj/sdram_math.o
+ .debug_line    0x0000096f      0x2fe obj/sdram_stdio.o
+ .debug_line    0x00000c6d      0x27e obj/sdram_trace.o
+ .debug_line    0x00000eeb       0xd5 obj/sdram_dbgu.o
+ .debug_line    0x00000fc0      0x12d obj/sdram_pio.o
+ .debug_line    0x000010ed      0x166 obj/sdram_cp15.o
+ .debug_line    0x00001253      0x234 obj/sdram_board_memories.o
+ .debug_line    0x00001487       0xe5 obj/sdram_board_lowlevel.o
+
+.debug_info     0x00000000     0x5d00
+ .debug_info    0x00000000       0x8b obj/sdram_isp_cstartup.o
+ .debug_info    0x0000008b      0x9a2 obj/sdram_main.o
+ .debug_info    0x00000a2d      0x1a7 obj/sdram_NorFlashCommon.o
+ .debug_info    0x00000bd4      0x81a obj/sdram_NorFlashCFI.o
+ .debug_info    0x000013ee      0x579 obj/sdram_NorFlashApi.o
+ .debug_info    0x00001967      0x5c5 obj/sdram_NorFlashAmd.o
+ .debug_info    0x00001f2c      0x6f7 obj/sdram_NorFlashIntel.o
+ .debug_info    0x00002623      0x116 obj/sdram_math.o
+ .debug_info    0x00002739      0xeb1 obj/sdram_stdio.o
+ .debug_info    0x000035ea      0xbfc obj/sdram_trace.o
+ .debug_info    0x000041e6      0x283 obj/sdram_dbgu.o
+ .debug_info    0x00004469      0x6d5 obj/sdram_pio.o
+ .debug_info    0x00004b3e      0x27b obj/sdram_cp15.o
+ .debug_info    0x00004db9      0xbda obj/sdram_board_memories.o
+ .debug_info    0x00005993      0x36d obj/sdram_board_lowlevel.o
+
+.debug_abbrev   0x00000000     0x1402
+ .debug_abbrev  0x00000000       0x14 obj/sdram_isp_cstartup.o
+ .debug_abbrev  0x00000014      0x1b7 obj/sdram_main.o
+ .debug_abbrev  0x000001cb       0xc2 obj/sdram_NorFlashCommon.o
+ .debug_abbrev  0x0000028d      0x1c6 obj/sdram_NorFlashCFI.o
+ .debug_abbrev  0x00000453      0x115 obj/sdram_NorFlashApi.o
+ .debug_abbrev  0x00000568      0x168 obj/sdram_NorFlashAmd.o
+ .debug_abbrev  0x000006d0      0x18e obj/sdram_NorFlashIntel.o
+ .debug_abbrev  0x0000085e       0xba obj/sdram_math.o
+ .debug_abbrev  0x00000918      0x2b8 obj/sdram_stdio.o
+ .debug_abbrev  0x00000bd0      0x263 obj/sdram_trace.o
+ .debug_abbrev  0x00000e33       0xd3 obj/sdram_dbgu.o
+ .debug_abbrev  0x00000f06      0x1a4 obj/sdram_pio.o
+ .debug_abbrev  0x000010aa       0xe9 obj/sdram_cp15.o
+ .debug_abbrev  0x00001193      0x1c6 obj/sdram_board_memories.o
+ .debug_abbrev  0x00001359       0xa9 obj/sdram_board_lowlevel.o
+
+.debug_aranges  0x00000000      0x4d0
+ .debug_aranges
+                0x00000000       0x20 obj/sdram_isp_cstartup.o
+ .debug_aranges
+                0x00000020       0x20 obj/sdram_main.o
+ .debug_aranges
+                0x00000040       0x30 obj/sdram_NorFlashCommon.o
+ .debug_aranges
+                0x00000070       0x80 obj/sdram_NorFlashCFI.o
+ .debug_aranges
+                0x000000f0       0x50 obj/sdram_NorFlashApi.o
+ .debug_aranges
+                0x00000140       0x60 obj/sdram_NorFlashAmd.o
+ .debug_aranges
+                0x000001a0       0x80 obj/sdram_NorFlashIntel.o
+ .debug_aranges
+                0x00000220       0x30 obj/sdram_math.o
+ .debug_aranges
+                0x00000250       0x88 obj/sdram_stdio.o
+ .debug_aranges
+                0x000002d8       0x60 obj/sdram_trace.o
+ .debug_aranges
+                0x00000338       0x38 obj/sdram_dbgu.o
+ .debug_aranges
+                0x00000370       0x40 obj/sdram_pio.o
+ .debug_aranges
+                0x000003b0       0x78 obj/sdram_cp15.o
+ .debug_aranges
+                0x00000428       0x70 obj/sdram_board_memories.o
+ .debug_aranges
+                0x00000498       0x38 obj/sdram_board_lowlevel.o
+
+.debug_frame    0x00000000      0xbc4
+ .debug_frame   0x00000000       0x34 obj/sdram_main.o
+ .debug_frame   0x00000034       0x40 obj/sdram_NorFlashCommon.o
+ .debug_frame   0x00000074      0x140 obj/sdram_NorFlashCFI.o
+ .debug_frame   0x000001b4       0xc4 obj/sdram_NorFlashApi.o
+ .debug_frame   0x00000278      0x12c obj/sdram_NorFlashAmd.o
+ .debug_frame   0x000003a4      0x190 obj/sdram_NorFlashIntel.o
+ .debug_frame   0x00000534       0x40 obj/sdram_math.o
+ .debug_frame   0x00000574      0x1b0 obj/sdram_stdio.o
+ .debug_frame   0x00000724      0x118 obj/sdram_trace.o
+ .debug_frame   0x0000083c       0x5c obj/sdram_dbgu.o
+ .debug_frame   0x00000898       0x68 obj/sdram_pio.o
+ .debug_frame   0x00000900      0x134 obj/sdram_cp15.o
+ .debug_frame   0x00000a34       0xe4 obj/sdram_board_memories.o
+ .debug_frame   0x00000b18       0x58 obj/sdram_board_lowlevel.o
+ .debug_frame   0x00000b70       0x20 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000b90       0x34 /work/bin/arm-2009q1/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy.o)
+
+.debug_loc      0x00000000     0x1fae
+ .debug_loc     0x00000000      0x1bf obj/sdram_main.o
+ .debug_loc     0x000001bf       0x13 obj/sdram_NorFlashCommon.o
+ .debug_loc     0x000001d2      0x316 obj/sdram_NorFlashCFI.o
+ .debug_loc     0x000004e8      0x217 obj/sdram_NorFlashApi.o
+ .debug_loc     0x000006ff      0x461 obj/sdram_NorFlashAmd.o
+ .debug_loc     0x00000b60      0x569 obj/sdram_NorFlashIntel.o
+ .debug_loc     0x000010c9       0x44 obj/sdram_math.o
+ .debug_loc     0x0000110d      0x6dc obj/sdram_stdio.o
+ .debug_loc     0x000017e9      0x389 obj/sdram_trace.o
+ .debug_loc     0x00001b72       0x63 obj/sdram_dbgu.o
+ .debug_loc     0x00001bd5       0x81 obj/sdram_pio.o
+ .debug_loc     0x00001c56      0x27d obj/sdram_cp15.o
+ .debug_loc     0x00001ed3       0xa9 obj/sdram_board_memories.o
+ .debug_loc     0x00001f7c       0x32 obj/sdram_board_lowlevel.o
+
+.debug_pubnames
+                0x00000000      0xa22
+ .debug_pubnames
+                0x00000000       0x27 obj/sdram_main.o
+ .debug_pubnames
+                0x00000027       0x44 obj/sdram_NorFlashCommon.o
+ .debug_pubnames
+                0x0000006b      0x1df obj/sdram_NorFlashCFI.o
+ .debug_pubnames
+                0x0000024a       0xbb obj/sdram_NorFlashApi.o
+ .debug_pubnames
+                0x00000305       0xc1 obj/sdram_NorFlashAmd.o
+ .debug_pubnames
+                0x000003c6      0x132 obj/sdram_NorFlashIntel.o
+ .debug_pubnames
+                0x000004f8       0x2d obj/sdram_math.o
+ .debug_pubnames
+                0x00000525       0xdf obj/sdram_stdio.o
+ .debug_pubnames
+                0x00000604       0xae obj/sdram_trace.o
+ .debug_pubnames
+                0x000006b2       0x5a obj/sdram_dbgu.o
+ .debug_pubnames
+                0x0000070c       0x66 obj/sdram_pio.o
+ .debug_pubnames
+                0x00000772      0x11b obj/sdram_cp15.o
+ .debug_pubnames
+                0x0000088d      0x12b obj/sdram_board_memories.o
+ .debug_pubnames
+                0x000009b8       0x6a obj/sdram_board_lowlevel.o
+
+.debug_ranges   0x00000000      0x4b8
+ .debug_ranges  0x00000000       0x30 obj/sdram_main.o
+ .debug_ranges  0x00000030       0x28 obj/sdram_NorFlashCommon.o
+ .debug_ranges  0x00000058       0x78 obj/sdram_NorFlashCFI.o
+ .debug_ranges  0x000000d0       0x48 obj/sdram_NorFlashApi.o
+ .debug_ranges  0x00000118       0x88 obj/sdram_NorFlashAmd.o
+ .debug_ranges  0x000001a0       0xa8 obj/sdram_NorFlashIntel.o
+ .debug_ranges  0x00000248       0x28 obj/sdram_math.o
+ .debug_ranges  0x00000270       0x80 obj/sdram_stdio.o
+ .debug_ranges  0x000002f0       0x58 obj/sdram_trace.o
+ .debug_ranges  0x00000348       0x30 obj/sdram_dbgu.o
+ .debug_ranges  0x00000378       0x38 obj/sdram_pio.o
+ .debug_ranges  0x000003b0       0x70 obj/sdram_cp15.o
+ .debug_ranges  0x00000420       0x68 obj/sdram_board_memories.o
+ .debug_ranges  0x00000488       0x30 obj/sdram_board_lowlevel.o
+
+.debug_str      0x00000000     0x1b34
+ .debug_str     0x00000000      0x5ee obj/sdram_main.o
+                                0x658 (size before relaxing)
+ .debug_str     0x000005ee       0x87 obj/sdram_NorFlashCommon.o
+                                0x176 (size before relaxing)
+ .debug_str     0x00000675      0x23d obj/sdram_NorFlashCFI.o
+                                0x5cb (size before relaxing)
+ .debug_str     0x000008b2       0xc6 obj/sdram_NorFlashApi.o
+                                0x44f (size before relaxing)
+ .debug_str     0x00000978       0xcb obj/sdram_NorFlashAmd.o
+                                0x3f9 (size before relaxing)
+ .debug_str     0x00000a43      0x136 obj/sdram_NorFlashIntel.o
+                                0x472 (size before relaxing)
+ .debug_str     0x00000b79       0x28 obj/sdram_math.o
+                                0x113 (size before relaxing)
+ .debug_str     0x00000ba1      0x48a obj/sdram_stdio.o
+                                0x5c1 (size before relaxing)
+ .debug_str     0x0000102b       0xbc obj/sdram_trace.o
+                                0x58c (size before relaxing)
+ .debug_str     0x000010e7      0x146 obj/sdram_dbgu.o
+                                0x1ca (size before relaxing)
+ .debug_str     0x0000122d      0x17d obj/sdram_pio.o
+                                0x358 (size before relaxing)
+ .debug_str     0x000013aa      0x10e obj/sdram_cp15.o
+                                0x1fd (size before relaxing)
+ .debug_str     0x000014b8      0x49b obj/sdram_board_memories.o
+                                0x74e (size before relaxing)
+ .debug_str     0x00001953      0x1e1 obj/sdram_board_lowlevel.o
+                                0x265 (size before relaxing)
