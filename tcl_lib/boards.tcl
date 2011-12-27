@@ -89,6 +89,7 @@ array set boards {
     "usb_lpw_at91sam9g20" "usb_lpw_at91sam9g20/usb_lpw_at91sam9g20.tcl"
     "usb_at91sam9263"	"usb_at91sam9263/usb_at91sam9263.tcl"
     "tny_at91sam9263"	"tny_at91sam9263/tny_at91sam9263.tcl"
+    "haba-knx_at91sam9g20"	"haba-knx_at91sam9g20/haba-knx-explorer.tcl"
     "no_board"          "no_board/no_board.tcl"
 }
 
